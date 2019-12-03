@@ -3879,12 +3879,10 @@ SOV_5_year_plan_decisions = {
 					free_building_slots = {
 						building = arms_factory
 						size > 4
-						included_locked = no
 					}
 					free_building_slots = {
 						building = industrial_complex
 						size > 4
-						included_locked = no
 					}
 				}
 				custom_effect_tooltip = SOV_marked_for_5_year_plan_tt
@@ -3896,12 +3894,10 @@ SOV_5_year_plan_decisions = {
 					free_building_slots = {
 						building = arms_factory
 						size > 4
-						included_locked = no
 					}
 					free_building_slots = {
 						building = industrial_complex
 						size > 4
-						included_locked = no
 					}
 				}
 				custom_effect_tooltip = SOV_marked_for_5_year_plan_tt
