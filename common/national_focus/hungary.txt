@@ -898,9 +898,9 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = HUN_industrial_revitalization
-				bonus = 0.25
-				uses = 2
-				category = construction_tech
+				bonus = 0.5
+				uses = 1
+				category = excavation_tech
 			}
 		}
 
@@ -1061,8 +1061,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_announce_the_gyor_program
-				bonus = 0.2
-				uses = 4
+				bonus = 0.5
+				uses = 2
 				category = construction_tech
 			}
 		}
