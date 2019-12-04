@@ -1279,15 +1279,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/land/hun/hun_38m_botond.tga"
 	}
 	SpriteType = {
-		name = "GFX_HUN_mechanised_equipment_1_medium"
+		name = "GFX_HUN_mechanized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_1.tga"
 	}
 	SpriteType = {
-		name = "GFX_HUN_mechanised_equipment_2_medium"
+		name = "GFX_HUN_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_2.tga"
 	}
 		SpriteType = {
-		name = "GFX_HUN_mechanised_equipment_3_medium"
+		name = "GFX_HUN_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_3.tga"
 	}
 	
@@ -1701,15 +1701,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/land/hun/hun_38m_botond.tga"
 	}
 	SpriteType = {
-		name = "GFX_SPR_mechanised_equipment_1_medium"
+		name = "GFX_SPR_mechanized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_1.tga"
 	}
 	SpriteType = {
-		name = "GFX_SPR_mechanised_equipment_2_medium"
+		name = "GFX_SPR_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_2.tga"
 	}
 	SpriteType = {
-		name = "GFX_SPR_mechanised_equipment_3_medium"
+		name = "GFX_SPR_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_3.tga"
 	}	
 	SpriteType = {
@@ -1757,15 +1757,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/land/hun/hun_38m_botond.tga"
 	}
 	SpriteType = {
-		name = "GFX_FIN_mechanised_equipment_1_medium"
+		name = "GFX_FIN_mechanized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_1.tga"
 	}
 	SpriteType = {
-		name = "GFX_FIN_mechanised_equipment_2_medium"
+		name = "GFX_FIN_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_2.tga"
 	}
 	SpriteType = {
-		name = "GFX_FIN_mechanised_equipment_3_medium"
+		name = "GFX_FIN_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_3.tga"
 	}	
 	SpriteType = {
@@ -1813,15 +1813,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/land/hun/hun_38m_botond.tga"
 	}
 	SpriteType = {
-		name = "GFX_BUL_mechanised_equipment_1_medium"
+		name = "GFX_BUL_mechanized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_1.tga"
 	}
 	SpriteType = {
-		name = "GFX_BUL_mechanised_equipment_2_medium"
+		name = "GFX_BUL_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_2.tga"
 	}
 	SpriteType = {
-		name = "GFX_BUL_mechanised_equipment_3_medium"
+		name = "GFX_BUL_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_3.tga"
 	}	
 	SpriteType = {
@@ -10028,15 +10028,15 @@ texturefile = "gfx/interface/technologies/PRC_adv_heavy_tank.dds"
 		texturefile = "gfx/interface/technologies/rom_motorised_infantry.dds"
 	}
 	SpriteType = {
-		name = "GFX_ROM_mechanised_equipment_1_medium"
+		name = "GFX_ROM_mechanized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_1.tga"
 	}
 	SpriteType = {
-		name = "GFX_ROM_mechanised_equipment_2_medium"
+		name = "GFX_ROM_mechanized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_2.tga"
 	}
 		SpriteType = {
-		name = "GFX_ROM_mechanised_equipment_3_medium"
+		name = "GFX_ROM_mechanized_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/land/ger/ger_mechanized_equipment_3.tga"
 	}
 	
