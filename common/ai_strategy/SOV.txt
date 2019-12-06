@@ -190,34 +190,6 @@ SOV_anti_armor = {
 	}
 }
 
-claims_on_baltic = {
-	enable = {
-		tag = SOV
-		has_completed_focus = SOV_claims_on_baltic
-		OR = {
-			country_exists = LAT
-			country_exists = LIT
-		}
-	}
-	abort = {
-		NOT = {
-			country_exists = LAT
-			country_exists = LIT
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "LAT"			
-		value = 200
-	}	
-	ai_strategy = {
-		type = antagonize
-		id = "LIT"			
-		value = 200
-	}
-}
-
 claims_on_finland = {
 	enable = {
 		tag = SOV
@@ -243,31 +215,12 @@ claims_on_finland = {
 	}	
 }
 
-claims_on_romania = {
-	enable = {
-		tag = SOV
-		has_completed_focus = SOV_claim_bessarabia
-		country_exists = ROM
-	}
-	abort = {
-		NOT = {
-			country_exists = ROM
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "ROM"			
-		value = 200
-	}	
-}
-
 germany_enemy = {
 	enable = {
 		tag = SOV
 		country_exists = GER
 		OR = {
-			date > 1941.1.1
+			date > 1942.1.1
 			has_war_with = GER 
 		}
 	}

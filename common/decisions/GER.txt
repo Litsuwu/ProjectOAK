@@ -2900,13 +2900,7 @@ foreign_politics = {
         days_remove = 14
 
 		remove_effect = {
-			complete_national_focus = GER_drang_nach_osten
-			GER = {
-			declare_war_on = {
-				target = SOV
-				type = annex_everything
-			  }
-		    }
+			complete_national_focus = GER_drang_nach_osten			
 			if = {
 				limit = {
 					GER = { is_in_faction_with = HUN }
@@ -2940,6 +2934,12 @@ foreign_politics = {
 			      }
 			    }	
 			}
+			GER = {
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+		    }
 			    add_timed_idea = {
 				    idea = Barbarossa_I
 				    days = 110
