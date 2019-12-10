@@ -45,6 +45,7 @@ technologies = {
 		}
 		enable_subunits = {
 			ss_pack_artillery_brigade
+			ss_pack_artillery_brigade_mot
 		}
 		enable_subunits = {
 			ss_artillery_medium

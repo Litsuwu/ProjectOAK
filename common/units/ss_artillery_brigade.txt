@@ -26,8 +26,8 @@ sub_units = {
 		combat_width = 2
 	
 		need = {
-			artillery_equipment = 28
-			horse_equipment = 28 
+			artillery_equipment = 26
+			horse_equipment = 26 
 		}
 		
 		manpower = 500
@@ -106,8 +106,8 @@ sub_units = {
 
 		manpower = 500
 		need = {
-			artillery_equipment = 28
-			motorized_equipment = 28 
+			artillery_equipment = 26
+			motorized_equipment = 26 
 		}
 		
 		
@@ -185,8 +185,8 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			pack_artillery_equipment = 28
-			horse_equipment = 28
+			pack_artillery_equipment = 26
+			horse_equipment = 26
 		}
 		
 		manpower = 400
@@ -236,14 +236,86 @@ sub_units = {
 			attack = -0.2
 		}
 	}
+	ss_pack_artillery_brigade_mot = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 640
+		active = no
+		special_forces = yes	
+		type = {		
+			artillery
+		}
+
+		group = schutzstaffel_mobile
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_special_forces
+			category_pack_artillery
+		}
+
+		combat_width = 2
+
+		need = {
+			pack_artillery_equipment = 26
+			motorized_equipment = 26
+		}
+		
+		manpower = 400
+		max_strength = 2
+		max_organisation = 4
+		default_morale = 0.2
+		training_time = 80
+		weight = 0.5
+		supply_consumption = 0.19
+
+		transport = motorized_equipment
+		#elite
+        defense = 0.05
+		breakthrough = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		forest = {
+			attack = -0.1
+			movement = -0.1
+		}
+
+		hills = {
+			attack = 0.1
+		}
+
+		mountain = {
+		    attack = 0.1
+			movement = -0.1
+		}
+
+		jungle = {
+			attack = -0.15
+			movement = -0.1
+		}
+
+		marsh = {
+			attack = -0.1
+			movement = -0.2
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.2
+		}
+	}
 	ss_artillery_medium = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
 		active = no
 		special_forces = yes
-		type = {
-			
+		type = {			
 			artillery
 		}
 		
@@ -259,8 +331,8 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			medartillery_equipment = 28			
-			horse_equipment = 28
+			medartillery_equipment = 26			
+			horse_equipment = 26
 		}
 	
 		combat_width = 2
@@ -340,8 +412,8 @@ sub_units = {
 		
 
 		need = {
-			medartillery_equipment = 28
-			motorized_equipment = 28 
+			medartillery_equipment = 26
+			motorized_equipment = 26 
 			
 		}
 	
@@ -420,8 +492,8 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			rocket_artillery_equipment = 28
-			horse_equipment = 28
+			rocket_artillery_equipment = 26
+			horse_equipment = 26
 		}
 		
 		manpower = 500
@@ -499,8 +571,8 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			rocket_artillery_equipment = 28
-			motorized_equipment = 28 
+			rocket_artillery_equipment = 26
+			motorized_equipment = 26 
 		}
 		
 		manpower = 500
