@@ -6,6 +6,6 @@ tags={
 	"National Focuses"
 	"Technologies"
 }
-picture="thumb.jpg"
+picture="thumb.png"
 supported_version="1.8.*"
 remote_file_id="1682664456"
