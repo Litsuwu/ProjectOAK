@@ -2264,13 +2264,22 @@ technologies = {
 		light_infantry = {
 			combat_width = -0.4
 		}
+		truck_light_infantry = {
+			combat_width = -0.4
+		}
 		infantry = {
+			combat_width = -0.4
+		}
+		truck_infantry = {
 			combat_width = -0.4
 		}
 		red_infantry = {
 			combat_width = -0.4
 		}
 		ss_infantry = {
+			combat_width = -0.4
+		}
+		ss_truck_infantry = {
 			combat_width = -0.4
 		}
 		motorized = {
@@ -2603,15 +2612,22 @@ technologies = {
 		light_infantry = {
 			combat_width = -0.4
 		} 
+		truck_light_infantry = {
+			combat_width = -0.4
+		} 
 		infantry = {
 			combat_width = -0.4
 		}
-		
+		truck_infantry = {
+			combat_width = -0.4
+		}
 		red_infantry = {
 			combat_width = -0.4
 		}
-
 		ss_infantry = {
+			combat_width = -0.4
+		}
+		ss_truck_infantry = {
 			combat_width = -0.4
 		}
 		
