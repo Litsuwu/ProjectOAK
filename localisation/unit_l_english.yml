@@ -299,11 +299,11 @@
 
  #special forces
  group_special_infantry_title:0 "Special Forces"
- group_special_infantry_title_desc:0 ""
+ group_special_infantry_title_desc:0 "Specialized units in the most complex operations and rough terrains."
  
  ##Red Guards##
  red_infantry:0 "Red Guard Infantry Battalion"
- red_infantry_desc:0 ""
+ red_infantry_desc:0 "Infantry that has been partially motorised."
  red_motorized:0 "Red Guard Motorized Infantry Battalion"
  red_motorized_desc:0 "Red Guard Motorized Infantry transportation, such as trucks and motorcycles."
  red_mechanized:0 "Red Guard Mechanized Battalion"
@@ -332,10 +332,12 @@
  red_anti_air_desc:0 ""
  red_anti_air_mot:0 "Red Guard Motorized Anti Air Battalion"
  red_anti_air_mot_desc:0 ""
- ## SS units ##
  
+ ## SS units ##
  ss_garrison:0 "SS Garrison Battalion"
  ss_garrison_desc:0 ""
+ ss_truck_garrison:0 "SS Semi-motorized Garrison Battalion"
+ ss_truck_garrison_desc:0 ""
  ss_anti_air:0 "SS Anti-Air"
  ss_anti_air_mot:0 "SS Motorized Anti-Air"
  ss_anti_air_desc:0 "Light Anti-Air guns drawn by horses."
@@ -351,6 +353,8 @@
  ss_anti_air_desc:0 "Horse-drawn light Anti-Air guns."
  ss_infantry:0 "SS Infantry Battalion"
  ss_infantry_desc:0 ""
+ ss_truck_infantry:0 "SS semi-motorized Infantry Battalion"
+ ss_truck_infantry_desc:0 ""
  ss_motorized:0 "SS Motorized Infantry Battalion"
  ss_motorized_desc:0 "SS Motorized Infantry transportation, such as trucks and motorcycles."
  ss_mechanized:0 "SS Panzergrendier Battalion"
@@ -373,11 +377,17 @@
  infantry_desc:0 "The backbone of any non-motorized army."
  light_infantry:0 "Light Infantry Battalion"
  light_infantry_desc:0 "Infantry with lighter kits more suited for rough terrain."
+ truck_infantry:0 "Semi-motorized Infantry Battalion"
+ truck_infantry_desc:0 "Infantry that has been partially motorised."
+ truck_light_infantry:0 "Semi-motorized Light Infantry Battalion"
+ truck_light_infantry_desc:0 "Infantry with lighter kits and trucks more suited for rough terrain."
  SPR_infantry_spain:0 "Brigada Legionario"
  infantry_spain:0 "Brigada Internacionales"	
  infantry_spain_desc:0 "Spanish civil war volunteers."
  garrison:0 "Garrison Battalion"
  garrison_desc:0 "Infantry specialized in defence and garrisoning."
+ truck_garrison:0 "Semi-motorized Garrison Battalion"
+ truck_garrison_desc:0 "Infantry specialized in defence and garrisoning with better mobility than normal garrisons."
  paratrooper:0 "Paratroopers"
  paratrooper_desc:0 "By incorporating airborne forces into our army, we can make forced entries and position key troops in previously inaccessible areas, allowing for new tactical opportunities."
  marine:0 "Marines Battalion"
@@ -391,7 +401,7 @@
  
  bicycle_infantry:0 "Bicycle Infantry"
  recon_ac:0 "Armored Cars Recon"
- recon_ac_desc:0 ""
+ recon_ac_desc:0 "Armored Cars are most suited for dangerous recon missions where lighter units would fail."
  engineer:0 "Engineer Company"
  engineer_desc:0 "Construction of fortifications and breaching obstacles make combat engineers vital in the field. Giving our engineers a versatile role enables us to deploy them in the diverse situations where they will be needed."
  field_hospital:0 "Field Hospital"
@@ -610,17 +620,12 @@
  ss_heavy_panzer:0 "SS Schwere Panzer"
  ss_heavy_panzer_desc:0 "SS Schwere Panzer"
  
- group_schutzstaffel_title:0 "SS Frontline battalions"
- group_schutzstaffel_title_desc:0 "SS Frontline battalions"
- 
- group_schutzstaffel_title_mobile:0 "Mobile SS Frontline battalions"
- group_schutzstaffel_title_mobile_desc:0 "Mobile SS Frontline battalions"
- 
- group_schutzstaffel_title_panzer:0 "SS Panzer battalions"
- group_schutzstaffel_title_panzer_desc:0 "SS Panzer battalions"
- 
- group_schutzstaffel_title_artillery:0 "SS Frontline artillery"
- group_schutzstaffel_title_artillery_desc:0 "SS FFrontline artillery"
+ group_schutzstaffel_title:0 "SS Infantry Battalions"
+ group_schutzstaffel_title_desc:0 "SS Infantry Battalions (Horses)"
+ group_schutzstaffel_mobile_title:0 "SS Mobile Battalions"
+ group_schutzstaffel_mobile_title_desc:0 "SS Mobile Battalions"
+ group_schutzstaffel_panzer_title:0 "SS Panzer Battalions"
+ group_schutzstaffel_panzer_title_desc:0 "SS Panzer Battalions"
  
 ##Soviet Group names
  group_red_army_tanks_title:0 "Red Guard Tank Battalions"

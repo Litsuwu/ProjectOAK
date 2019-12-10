@@ -18,6 +18,9 @@ technologies = {
 		enable_subunits = {
 			ss_garrison
 		}
+		enable_subunits = {
+			ss_truck_garrison
+		}
 	}	
     
 	ss_unlock = {
@@ -33,6 +36,9 @@ technologies = {
 		}
 		enable_subunits = {
 			ss_infantry
+		}
+		enable_subunits = {
+			ss_truck_infantry
 		}
 		enable_subunits = {
 			ss_artillery_brigade
