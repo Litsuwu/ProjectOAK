@@ -254,7 +254,7 @@ equipments = {
 		
 		active = yes
 
-		reliability = 0.9
+		reliability = 0.8
 		maximum_speed = 4
 		lend_lease_cost = 1
 		build_cost_ic = 1.0

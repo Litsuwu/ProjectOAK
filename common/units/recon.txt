@@ -41,13 +41,11 @@ sub_units = {
 		essential = {
 			infantry_equipment
 			support_equipment
-			horse_equipment
 		}
 
 		need = {
 			infantry_equipment = 40
-			support_equipment = 5
-			horse_equipment = 5
+			support_equipment = 6
 		}
 
 		forest = {

@@ -1768,7 +1768,7 @@ technologies = {
 			acclimatization_hot_climate_gain_factor = 0.05
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
-		
+		special_forces_min = 5
 		path = {
 			leads_to_tech = advanced_special_forces
 			research_cost_coeff = 1
@@ -1836,7 +1836,7 @@ technologies = {
 			leads_to_tech = extreme_environment_training
 			research_cost_coeff = 1
 		}
-
+		special_forces_min = 10
 		research_cost = 1.2
 		start_year = 1940
 		folder = {
@@ -1887,7 +1887,7 @@ technologies = {
 			leads_to_tech = survival_training
 			research_cost_coeff = 1
 		}
-
+		special_forces_min = 10
 		research_cost = 1.2
 		start_year = 1940
 		folder = {
@@ -1921,7 +1921,7 @@ technologies = {
 			leads_to_tech = elite_forces
 			research_cost_coeff = 1
 		}
-
+		special_forces_min = 10
 		research_cost = 1.2
 		start_year = 1942
 		folder = {
@@ -1974,7 +1974,7 @@ technologies = {
 			leads_to_tech = elite_forces
 			research_cost_coeff = 1
 		}
-
+		special_forces_min = 10
 		research_cost = 1.2
 		start_year = 1942
 		folder = {
@@ -2010,7 +2010,7 @@ technologies = {
 			name = infantry_folder
 			position = { x = 25 y = @1944 }
 		}
-		
+		special_forces_min = 15
 		categories = {
 			mountaineers_tech
 			marine_tech
