@@ -199,7 +199,7 @@ sub_units = {
 		
 		transport = horse_equipment
 
-		supply_consumption = 0.17
+		supply_consumption = 0.15
 		
 		#elite
         defense = 0.05
@@ -267,7 +267,7 @@ sub_units = {
 		soft_attack = -0.35
 		transport = motorized_equipment
 
-		supply_consumption = 0.12
+		supply_consumption = 0.1
 		
 		
 		forest = {
