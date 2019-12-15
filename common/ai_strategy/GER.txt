@@ -54,6 +54,12 @@ GER_unit_production = {
 
 	ai_strategy = { type = air_factory_balance value = 10 }
 
+    ai_strategy = { type = equipment_production_min_factories id = armor		value = 1		}
+    ai_strategy = { type = equipment_production_min_factories id = artillery	value = 5		}
+    ai_strategy = { type = equipment_production_min_factories id = fighter		value = 6		}
+    ai_strategy = { type = equipment_production_min_factories id = anti_air		value = 1		}
+    ai_strategy = { type = equipment_production_min_factories id = anti_tank	value = 1		}
+
 	ai_strategy = {
 		type = added_military_to_civilian_factory_ratio
 		value = 100
@@ -206,6 +212,7 @@ dont_die_in_mountains = {
 		value = 500
 	}
 }
+
 efr_is_our_bitch = {
    enable = {
 		tag = GER
@@ -222,6 +229,7 @@ efr_is_our_bitch = {
 		value = 500
 	}
 }
+
 soviet_ally = {
 	enable = {
 		tag = GER

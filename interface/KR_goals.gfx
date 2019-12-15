@@ -1,4 +1,157 @@
 spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_GER_the_final_crusade"
+		texturefile = "gfx/interface/goals/ger/GER_final_crusade.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_offense_is_the_best_defense"
+		texturefile = "gfx/interface/goals/ger/GER_offense_best_defense.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_hitler_jugend"
+		texturefile = "gfx/interface/goals/ger/ger_hitlerjugend.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_endless_offensives"
+		texturefile = "gfx/interface/goals/ger/GER_endless_offensives.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_the_wild_cats_that_roam_in_russia"
+		texturefile = "gfx/interface/goals/ger/GER_the_wild_cats_that_roam_russia.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_ambush_tactics"
+		texturefile = "gfx/interface/goals/ger/GER_pakfront.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_udets_strike_force"
+		texturefile = "gfx/interface/goals/ger/GER_ju87_ftw.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_junkers_CAS"
+		texturefile = "gfx/interface/goals/ger/GER_junkers_company.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_victory_through_airpower"
+		texturefile = "gfx/interface/goals/ger/GER_air_superiority.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_Fast_Bomber"
+		texturefile = "gfx/interface/goals/ger/GER_sonic_planes.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_CAS_doctrine"
+		texturefile = "gfx/interface/goals/ger/GER_german_cas_doctrine.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_Ural_Bomber"
+		texturefile = "gfx/interface/goals/ger/GER_ural_bomber.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_long_range_escorts"
+		texturefile = "gfx/interface/goals/ger/GER_heavy_fighter.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_strategic_bombing_doctrine"
+		texturefile = "gfx/interface/goals/ger/GER_strategic_bombing.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_festung_principle"
+		texturefile = "gfx/interface/goals/ger/GER_festung_principle.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_mobile_fortresses"
+		texturefile = "gfx/interface/goals/ger/GER_tigers_in_the_east.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_ambush_tactics"
+		texturefile = "gfx/interface/goals/ger/GER_pakfront.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_modern_grenadiers"
+		texturefile = "gfx/interface/goals/ger/GER_modern_infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_division_support_structure"
+		texturefile = "gfx/interface/goals/ger/GER_modern_support_structure.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_new_weapons"
+		texturefile = "gfx/interface/goals/ger/GER_new_weapons.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_kampfgruppes"
+		texturefile = "gfx/interface/goals/ger/ger_kampfgruppen.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_infanterie_tactics"
+		texturefile = "gfx/interface/goals/ger/ger_infantry_tactics.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_hanomag"
+		texturefile = "gfx/interface/goals/ger/ger_hanomag.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_support_tanks"
+		texturefile = "gfx/interface/goals/ger/ger_support_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_blomberg_fritsch_affair"
+		texturefile = "gfx/interface/goals/ger/ger_blomberg_fritsch_affair.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_blomberg_frisch_cover_up"
+		texturefile = "gfx/interface/goals/ger/ger_blomberg_fritsch_cover_up.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_focus_control_the_army"
+		texturefile = "gfx/interface/goals/ger/goal_ger_heer_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_achtung_panzer"
+		texturefile = "gfx/interface/goals/ger/ger_achtung_panzer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_artillery_expansion"
+		texturefile = "gfx/interface/goals/ger/ger_artillery_expansion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_loyalty_to_the_fuhrer"
+		texturefile = "gfx/interface/goals/ger/ger_loyalty_to_the_fuhrer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_loyalty_to_the_fatherland"
+		texturefile = "gfx/interface/goals/ger/ger_fur_das_vaterland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_spezialeinsatseinheter"
+		texturefile = "gfx/interface/goals/ger/ger_loyalty_to_the_fatherland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_strengthen_die_abwehr"
+		texturefile = "gfx/interface/goals/ger/ger_military_intelligence.dds"
+	}
+
 	spriteType = {
 		name = "GFX_GER_Schutzstaffel_focus"
 		texturefile = "gfx/interface/goals/ger/ger_schutsstaffel.dds"
@@ -60,21 +213,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CommonwealthAirTrainingPlan.tga"
 	}
 	spriteType = {
-		name = "GFX_ITA_strike_france"
-		texturefile = "gfx/interface/goals/ita/strike_france.dds"
-	}
-	spriteType = {
-		name = "GFX_ITA_baionette"
-		texturefile = "gfx/interface/goals/ita/baionette.dds"
-	}
-	spriteType = {
-		name = "GFX_ITA_ariete_focus"
-		texturefile = "gfx/interface/goals/ita/ariete.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_ITA_Generic_Ultranat_Eagle"
-		texturefile = "gfx/interface/goals/ita/Generic_Ultranat_Eagle.dds"
+		texturefile = "gfx/interface/goals/ita/Generic_Ultranat_Eagle.tga"
 	}
 	spriteType = {
 		name = "GFX_ITA_Ultranationalism_2"
@@ -352,8 +492,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_ger_armour_investment"
-		texturefile = "gfx/interface/goals/ger/ger_armour_investment.dds"			
+		name = "GFX_GER_armor_design_competition"
+		texturefile = "gfx/interface/goals/ger/ger_second_gen_tanks.dds"			
 	}
 
 	SpriteType = {
@@ -1051,21 +1191,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GER_award_heroes"
 		texturefile = "gfx/interface/goals/ger/GER_award_heroes.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_GER_offense_is_the_best_defense"
-		texturefile = "gfx/interface/goals/ger/GER_offense_is_the_best_defense.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_GER_endless_offensives"
-		texturefile = "gfx/interface/goals/ger/GER_endless_offensives.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_GER_the_wild_cats_that_roam_in_russia"
-		texturefile = "gfx/interface/goals/ger/GER_the_wild_cats_that_roam_russia.dds"
 	}	
 
 	SpriteType = {
