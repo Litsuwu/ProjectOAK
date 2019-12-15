@@ -1,4 +1,4 @@
-name="- Hearts of Oak - Man the Guns"
+name="- Hearts of Oak -"
 path="C:/Users/samue/Documents/Paradox Interactive/Hearts of Iron IV/mod/ProjectOAK"
 tags={
 	"Gameplay"
@@ -6,6 +6,6 @@ tags={
 	"National Focuses"
 	"Technologies"
 }
-picture="thumb.png"
+picture="thumbnail.png"
 supported_version="1.8.*"
 remote_file_id="1682664456"
