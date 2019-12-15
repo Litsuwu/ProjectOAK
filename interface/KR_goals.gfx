@@ -224,6 +224,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CommonwealthAirTrainingPlan.tga"
 	}
 	spriteType = {
+		name = "GFX_ITA_strike_france"
+		texturefile = "gfx/interface/goals/ita/strike_france.dds"
+	}
+	spriteType = {
 		name = "GFX_ITA_Generic_Ultranat_Eagle"
 		texturefile = "gfx/interface/goals/ita/Generic_Ultranat_Eagle.tga"
 	}
