@@ -3345,6 +3345,7 @@ foreign_politics = {
 		
 		available = {
 			ROM = { is_in_faction_with = ROOT }
+			ROM = { is_puppet_of = ROOT }
 		}
 		
 		visible = {
