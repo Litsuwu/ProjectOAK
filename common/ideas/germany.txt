@@ -205,6 +205,16 @@ ideas = {
 			}
 		}
 
+		GER_schacht_autarky = {
+			
+			picture = great_depression
+		
+			modifier = {
+				civilian_factory_use = 5 
+				political_power_cost = 0.1 
+			}
+		}
+
 		GER_disorganized_industry = {
 			
 			picture = great_depression
@@ -2151,6 +2161,10 @@ ideas = {
 				original_tag = GER	
 			}
 
+			available = {
+				has_completed_focus = GER_absorb_rheinmetall
+			}
+
 			research_bonus = {
 				armor = -0.05
 			}
@@ -2921,7 +2935,98 @@ ideas = {
 
 	######
 	industrial_concern = {
-		
+
+		reichswerke_hermann_goring = {
+
+			allowed = {
+				original_tag = GER
+			}
+
+			traits = { trait_industrial_concern }
+
+			available = {
+				has_completed_focus = GER_expand_the_reichswerke
+				has_idea = goering_e
+			}
+
+			modifier = {	
+				industrial_capacity_factory = 0.15
+				local_resources_factor = 0.2
+				political_power_cost = 0.10
+				stability_factor = -0.1 
+				resistance_tick_auto = 1 					
+			}
+
+			ai_will_do = { 
+				factor = 1
+			}
+
+			cost = 100 
+		}
+
+		krupp_industrial_concern = {
+			
+			allowed = {
+				original_tag = GER
+			}
+						
+			traits = { trait_industrial_concern }
+			
+			available = {
+				has_completed_focus = GER_new_subsidiaries
+				has_idea = hjalmar_schacht
+			}
+
+			picture = krupp
+
+			ai_will_do = {
+				factor = 10
+			}
+			
+			cost = 100 
+
+			research_bonus = { 
+			}  
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.15
+				political_power_cost = 0.1
+				consumer_goods_factor = 0.01 
+			}
+		}
+
+		ig_faben = {
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				has_Completed_focus = ig_faben
+			}
+
+			visible = {
+				NOT = { has_completed_focus = ig_faben_rubber }
+				NOT = { has_completed_focus = ig_faben_oil }
+			}
+			
+			research_bonus = {
+				synth_resources = 0.1
+			}
+
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.075
+				production_speed_synthetic_rubber_refinery_factor = 0.075
+			}
+
+			traits = { GER_refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
 		ig_faben = {
 			
 			allowed = {
@@ -3053,6 +3158,7 @@ ideas = {
 				factor = 1
 			}
 		}
+
 		ig_faben_rubber2 = {
 			
 			allowed = {
@@ -3088,30 +3194,6 @@ ideas = {
 				factor = 1
 			}
 		}
-
-		reichswerke_hermann_goring = {
-
-			allowed = {
-				original_tag = GER
-			}
-
-			available = {
-				has_completed_focus = GER_hermann_goring_werke
-				has_idea = goering_e
-			}
-
-			modifier = {
-				local_resources_factor = 0.2
-				political_power_cost = 0.25
-			}
-
-			traits = { industrial_concern }
-
-			ai_will_do = { 
-				factor = 1
-			}
-		}
-
 	}
     industrial_research = {
 
@@ -3219,6 +3301,7 @@ ideas = {
             traits = { motorized_research_trait }
 		}
 	}
+
     materiel_manufacturer = {
 		
 		designer = yes
