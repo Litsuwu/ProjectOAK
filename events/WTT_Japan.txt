@@ -823,15 +823,15 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	tag = JAP
-	if = { 
-		limit = { country_exists = MEN }
-		MEN = { has_capitulated = yes }
-	}
-	if = { 
-		limit = { country_exists = MEN }
-		MAN = { has_capitulated = yes }
-	}
+			tag = JAP
+			if = { 
+				limit = { country_exists = MEN }
+				MEN = { has_capitulated = yes }
+			}
+			if = { 
+				limit = { country_exists = MEN }
+				MAN = { has_capitulated = yes }
+			}
 	        OR = {
 			CHI = { has_full_control_of_state = 609 }
 				any_other_country = {
@@ -860,6 +860,7 @@ country_event = {
 					has_full_control_of_state = 745
 				}
 			}
+		NOT = { is_in_faction_with = CHI }	
 	}
 	option = {
 		name = wtt_japan.114.a

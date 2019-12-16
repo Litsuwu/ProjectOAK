@@ -1,7 +1,5 @@
 ideas = {
-
-	political_advisor = {
-
+	theorist_production = {
 		MEN_megata_toshiro = {
 
 			picture = generic_political_advisor_asia_2
@@ -12,6 +10,20 @@ ideas = {
 			
 			traits = { armaments_organizer }
 		}
+		MEN_songgotu_zhanshan = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = MEN
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}	
+	political_advisor = {
+
+		
 
 		MEN_nalan_kang_an = {
 
@@ -24,16 +36,7 @@ ideas = {
 			traits = { fortification_engineer }
 		}
 
-		MEN_songgotu_zhanshan = {
-
-			picture = generic_political_advisor_asia_1
-			
-			allowed = {
-				original_tag = MEN
-			}
-			
-			traits = { captain_of_industry }
-		}
+		
 	}	
 
 	army_chief = {

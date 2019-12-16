@@ -9093,115 +9093,124 @@ spriteTypes = {
 	
 	
 	SpriteType = {
-name = "GFX_PRC_motorised_infantry_medium"
-texturefile = "gfx/interface/technologies/prc_motorized_equipment_1.dds"
-}
+	name = "GFX_PRC_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/prc_motorised_infantry.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRC_light_tank_1934_medium"
+	texturefile = "gfx/interface/technologies/chi_gwtank.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRC_light_tank_1936_medium"
+	texturefile = "gfx/interface/technologies/prc_basic_light_tank.dds"
+	}
 
-SpriteType = {
-name = "GFX_PRC_light_tank_1936_medium"
-texturefile = "gfx/interface/technologies/PRC_basic_light_tank.dds"
-}
-
-SpriteType = {
-name = "GFX_PRC_light_tank_1938_medium"
-texturefile = "gfx/interface/technologies/PRC_imp_light_tank.dds"
-}
+	SpriteType = {
+	name = "GFX_PRC_light_tank_1938_medium"
+	texturefile = "gfx/interface/technologies/prc_imp_light_tank.dds"
+	}
 
 SpriteType = {
 name = "GFX_PRC_light_tank_1940_medium"
-texturefile = "gfx/interface/technologies/PRC_adv_light_tank.dds"
+texturefile = "gfx/interface/technologies/prc_adv_light_tank.dds"
 }
-
-
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_1937_medium"
-texturefile = "gfx/interface/technologies/PRC_basic_main_tank.dds"
+texturefile = "gfx/interface/technologies/prc_basic_medium_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_1939_medium"
-texturefile = "gfx/interface/technologies/PRC_imp_main_tank.dds"
+texturefile = "gfx/interface/technologies/prc_imp_medium_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_1941_medium"
-texturefile = "gfx/interface/technologies/PRC_adv_main_tank.dds"
+texturefile = "gfx/interface/technologies/prc_adv_medium_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_1943_medium"
-texturefile = "gfx/interface/technologies/PRC_main_battle_tank.dds"
+texturefile = "gfx/interface/technologies/prc_main_battle_tank.dds"
+}
+SpriteType = {
+name = "GFX_PRC_medium_tank_1945_medium"
+texturefile = "gfx/interface/technologies/prc_main_battle_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_heavy_tank_1934_medium"
-texturefile = "gfx/interface/technologies/PRC_basic_heavy_tank.dds"
+texturefile = "gfx/interface/technologies/prc_basic_heavy_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_heavy_tank_1941_medium"
-texturefile = "gfx/interface/technologies/PRC_imp_heavy_tank.dds"
+texturefile = "gfx/interface/technologies/prc_imp_heavy_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_heavy_tank_1943_medium"
-texturefile = "gfx/interface/technologies/PRC_adv_heavy_tank.dds"
+texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_light_tank_1934_medium"
-texturefile = "gfx/interface/technologies/PRC_gwtank.dds"
+texturefile = "gfx/interface/technologies/chi_gwtank.dds"
 } 
 
 SpriteType = {
 name = "GFX_PRC_light_tank_equipment_1936_medium"
-texturefile = "gfx/interface/technologies/PRC_basic_light_tank.dds"
+texturefile = "gfx/interface/technologies/prc_basic_light_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_light_tank_equipment_1938_medium"
-texturefile = "gfx/interface/technologies/PRC_imp_light_tank.dds"
+texturefile = "gfx/interface/technologies/prc_imp_light_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_light_tank_equipment_1940_medium"
-texturefile = "gfx/interface/technologies/PRC_adv_light_tank.dds"
+texturefile = "gfx/interface/technologies/prc_adv_light_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_equipment_1937_medium"
-texturefile = "gfx/interface/technologies/PRC_basic_main_tank.dds"
+texturefile = "gfx/interface/technologies/prc_basic_medium_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_equipment_1939_medium"
-texturefile = "gfx/interface/technologies/PRC_imp_main_tank.dds"
+texturefile = "gfx/interface/technologies/prc_imp_medium_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_equipment_1941_medium"
-texturefile = "gfx/interface/technologies/PRC_adv_main_tank.dds"
+texturefile = "gfx/interface/technologies/prc_adv_medium_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_medium_tank_equipment_1943_medium"
-texturefile = "gfx/interface/technologies/PRC_main_battle_tank.dds"
+texturefile = "gfx/interface/technologies/prc_main_battle_tank.dds"
+}
+SpriteType = {
+name = "GFX_PRC_medium_tank_equipment_1945_medium"
+texturefile = "gfx/interface/technologies/prc_main_battle_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_heavy_tank_equipment_1934_medium"
-texturefile = "gfx/interface/technologies/PRC_basic_heavy_tank.dds"
+texturefile = "gfx/interface/technologies/prc_basic_heavy_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_heavy_tank_equipment_1941_medium"
-texturefile = "gfx/interface/technologies/PRC_imp_heavy_tank.dds"
+texturefile = "gfx/interface/technologies/prc_imp_heavy_tank.dds"
 }
 
 SpriteType = {
 name = "GFX_PRC_heavy_tank_equipment_1943_medium"
-texturefile = "gfx/interface/technologies/PRC_adv_heavy_tank.dds"
+texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 }
 
 	##USA Light Fighters

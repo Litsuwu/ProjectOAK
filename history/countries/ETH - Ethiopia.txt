@@ -50,13 +50,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Amedeo di Savoia-Aosta"
-	desc = ""
-	picture = "Amedeo di Savoia-Aosta.tga"
-	expire = "1953.3.1"
+	name = "Benito Mussolini"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-	
+		Duce 
 	}
 }
 

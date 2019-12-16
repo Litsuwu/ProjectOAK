@@ -1,8 +1,6 @@
 ideas = {
 
 	country = { 
-
-		
 		
 		PRC_the_long_march_1 = {
 
@@ -316,9 +314,7 @@ ideas = {
 			}			
 		}
 	}
-
-	political_advisor = {
-
+	theorist_production = {
 		PRC_lin_bojiu = {
 
 			picture = generic_political_advisor_asia_1
@@ -329,29 +325,6 @@ ideas = {
 			
 			traits = { armaments_organizer }
 		}
-
-		PRC_zhou_enlai = {
-
-			picture = generic_political_advisor_asia_2
-				
-			allowed = {
-				original_tag = PRC
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		PRC_liu_shaoqi = {
-
-			picture = generic_political_advisor_asia_1
-				
-			allowed = {
-				original_tag = PRC
-			}
-			
-			traits = { silent_workhorse }
-		}
-
 		PRC_he_yuandang = {
 
 			picture = generic_political_advisor_asia_1
@@ -385,7 +358,33 @@ ideas = {
 				factor = 1
 			}
 		}
+	}	
+	political_advisor = {
 
+		
+
+		PRC_zhou_enlai = {
+
+			picture = generic_political_advisor_asia_2
+				
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+		PRC_liu_shaoqi = {
+
+			picture = generic_political_advisor_asia_1
+				
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { silent_workhorse }
+		}
+		
 		PRC_dong_biwu = {
 			
 			picture = generic_political_advisor_asia_1
