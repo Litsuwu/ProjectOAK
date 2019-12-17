@@ -64,7 +64,7 @@ units = {
 units = {
 	#Ushtria Shqipëtarë
 	division = {
-		name = "I light_infantry"
+		name = "Light Infantry"
 		location = 9914
 		division_template = "Këmbësori Pjesëtim"
 		start_experience_factor = 0.1

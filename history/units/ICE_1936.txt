@@ -31,7 +31,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "light_infantry"		# miltia forces, lower experience and equipment
+	name = "Light Infantry"		# miltia forces, lower experience and equipment
 
 	regiments = {
 		light_infantry = { x = 0 y = 0 }

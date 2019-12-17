@@ -574,7 +574,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_YUG_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/yug_infantry_weapons1.dds"
+		texturefile = "gfx/interface/technologies/arms_NOR_infantry_equipment_1.dds"
 	}
 
 	SpriteType = {
@@ -604,17 +604,17 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_YUG_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/yug_basic_equipment.dds"
+		texturefile = "gfx/interface/technologies/arms_NOR_infantry_equipment_0.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUG_improved_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/yug_improved_infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/arms_NOR_infantry_equipment_3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUG_advanced_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/yug_advanced_infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/arms_NOR_infantry_equipment_4.dds"
 	}
 
 	SpriteType = {
