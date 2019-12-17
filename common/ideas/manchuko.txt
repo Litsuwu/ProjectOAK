@@ -457,7 +457,26 @@ ideas = {
 	}	
 	political_advisor = {
 
-		
+		MAN_zhang_jinghui = {
+
+			picture = generic_political_advisor_asia_1
+				
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { fascist_demagogue }
+		}
+		MAN_zheng_xiaoxu = {
+
+			picture = generic_political_advisor_asia_2
+				
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { prince_of_terror }
+		}
 
 		MAN_nalan_kang_an = {
 
