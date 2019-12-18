@@ -3402,9 +3402,7 @@ focus_tree = {
 		id = SOV_the_great_patriotic_war
 		icon = GFX_SOV_red_army
 		cost = 7.16	
-		prerequisite = {
-			focus = SOV_german_invasion
-		}
+
 		ai_will_do = {
 			factor = 100			
 		}
