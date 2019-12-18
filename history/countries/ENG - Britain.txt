@@ -214,7 +214,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+		dislikes_germany great_leader
 	}
 }
 
@@ -225,7 +225,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		
+		chamberlain_appeaser rearmer
 	}
 }
 
@@ -272,7 +272,7 @@ create_field_marshal = {
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 4
-	logistics_skill = 2
+	logistics_skill = 3
 }
 
 create_field_marshal = {

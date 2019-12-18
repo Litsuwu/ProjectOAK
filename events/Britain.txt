@@ -266,11 +266,12 @@ country_event = {
 
 	option = {
 		name = britain.10.a
-		kill_country_leader = yes
-        
+		ai_chance = { factor = 100 }
+		kill_country_leader = yes      
 	}
 	option = {
 		name = britain.10.b
+		ai_chance = { factor = 0 }
 		kill_country_leader = yes
 		create_country_leader = {
 			name = "Lord Edward Halifax"
