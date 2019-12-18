@@ -297,7 +297,17 @@ leader_traits = {
 		attack_skill_factor = 1
 		planning_skill_factor = 1
 	}
-	
+	yak_command = { 
+		type = land
+		trait_type = personality_trait
+		
+		corps_commander_modifier = {
+			max_commander_army_size = 999
+		}
+		field_marshal_modifier = {
+			max_army_group_size = 999
+		}
+	}
 ##################################
 # Field Marshal traits.
 ##################################

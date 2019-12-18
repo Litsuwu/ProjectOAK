@@ -2,12 +2,23 @@
  if_they_accept:0 "If they accept:\n"
  
  multiplayer.1.t:0 "You are a massive cunt"
- multiplayer.1.d:0 "It seems you have use the tech research exploit, get fucked"
+ multiplayer.1.d:0 "It seems you have used the tech research exploit, get fucked"
  multiplayer.1.a:0 "I'm a cunt"
  
  multiplayer.2.t:0 "[From.GetName] is a cheater!"
  multiplayer.2.d:0 "[From.GetName] has used the tech research exploit..."
  multiplayer.2.a:0 "Rehost time"
+ 
+ yak.1.t:0 "The Great Yak Ascends"
+ yak.1.d:0 "It was a cloudy day in the Himalayas when suddenly the sky was ripped open and a great Yak decended from the heavens. He told me he was tired of seeing Tibet being prey of our neighbors and that our time has come to take what is rightfully ours!"
+ yak.1.a:0 "All Hail The Yak!"
+ yak.1.b:0 "I have to stop using acid..."
+ yak.2.t:0 "The Great Yak Ascends in Tibet"
+ yak.2.d:0 "Wierd reports are coming from the isolated nation of Tibet. Apparently a godly Yak has decended from the skies and it is using its godlike powers to make Tibet an unstoppable force. Most have disgarded these reports as utter nonsense, however some have noticed the sudden growth of Tibet's army..."
+ yak.2.a:0 "Our doom is nigh..."
+ godlike_creature:0 "Godlike Creature"
+ great_yak_idea:0 "Blessing of the Great Yak"
+ yak_command:0 "Command from Heaven"
  #salò
  salo.1:0 "The King and Badoglio have signed an armistice!"
  salo.1.t:0 "The King and Badoglio have signed an armistice!"

@@ -170,5 +170,6 @@ leader_traits = {
 
 	SOV_variant_designer = {}
 
-	
+	godlike_creature= {}
+
 }

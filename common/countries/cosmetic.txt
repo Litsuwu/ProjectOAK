@@ -1,4 +1,7 @@
-
+YAK_EMPIRE = {
+    color = rgb { 255 255 255 } 
+    color_ui = rgb { 255 255 255 }
+}
 ETH_ITA = {
     color = rgb { 55 124 52 }
     color_ui = rgb { 55 124 52 }
