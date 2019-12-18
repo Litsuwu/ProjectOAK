@@ -462,6 +462,7 @@ organize_air_defence = {
 		limit = {
 			is_core_of = ROOT
 			arms_factory > 6
+			anti_air_building < 3
 		}
 		add_building_construction = {
 			type = anti_air_building
@@ -474,6 +475,7 @@ organize_air_defence = {
 		limit = {
 			is_core_of = ROOT
 			arms_factory > 5
+			anti_air_building < 3
 		}
 		add_building_construction = {
 			type = anti_air_building
@@ -486,6 +488,7 @@ organize_air_defence = {
 		limit = {
 			is_core_of = ROOT
 			arms_factory > 5
+			anti_air_building < 3
 		}
 		add_building_construction = {
 			type = anti_air_building
@@ -498,6 +501,7 @@ organize_air_defence = {
 		limit = {
 			is_core_of = ROOT
 			arms_factory > 5
+			anti_air_building < 3
 		}
 		add_building_construction = {
 			type = anti_air_building
@@ -510,6 +514,7 @@ organize_air_defence = {
 		limit = {
 			is_core_of = ROOT
 			arms_factory > 5
+			anti_air_building < 3
 		}
 		add_building_construction = {
 			type = anti_air_building
@@ -521,6 +526,7 @@ organize_air_defence = {
 		limit = {
 			is_core_of = ROOT
 			arms_factory > 5
+			radar_station < 1
 		}
 		add_building_construction = {
 			type = radar_station
@@ -534,7 +540,7 @@ commission_defence_line = {
 
 	random_owned_controlled_state = {
 		limit = {
-			arms_factory > 2
+			bunker < 3
 		}
 		add_building_construction = {
 			type = bunker
@@ -545,7 +551,7 @@ commission_defence_line = {
 	
 	random_owned_controlled_state = {
 		limit = {
-			arms_factory > 2
+			bunker < 3
 		}
 		add_building_construction = {
 			type = bunker
@@ -556,7 +562,7 @@ commission_defence_line = {
 
 	random_owned_controlled_state = {
 		limit = {
-			arms_factory > 2
+			bunker < 3
 		}
 		add_building_construction = {
 			type = bunker
@@ -567,7 +573,7 @@ commission_defence_line = {
 	
 	random_owned_controlled_state = {
 		limit = {
-			arms_factory > 2
+			bunker < 3
 		}
 		add_building_construction = {
 			type = bunker
@@ -588,7 +594,7 @@ commission_defence_line = {
 	}
 	random_owned_controlled_state = {
 		limit = {
-			arms_factory > 2
+			bunker < 3
 		}
 		add_building_construction = {
 			type = bunker
@@ -609,7 +615,7 @@ commission_defence_line = {
 
 	random_owned_controlled_state = {
 		limit = {
-			arms_factory > 2
+			bunker < 3
 		}
 		add_building_construction = {
 			type = bunker
@@ -619,7 +625,7 @@ commission_defence_line = {
 	}
 	random_owned_controlled_state = {
 		limit = {
-			arms_factory > 2
+			bunker < 3
 		}
 		add_building_construction = {
 			type = bunker
@@ -634,6 +640,7 @@ commission_coast_defence = {
 	random_owned_controlled_state = {
 		limit = {
 			coastal_bunker > 1
+			coastal_bunker < 3
 		}
 		add_building_construction = {
 			type = coastal_bunker
@@ -645,6 +652,7 @@ commission_coast_defence = {
 	random_owned_controlled_state = {
 		limit = {
 			coastal_bunker > 1
+			coastal_bunker < 3
 		}
 		add_building_construction = {
 			type = coastal_bunker
@@ -655,7 +663,7 @@ commission_coast_defence = {
 
 	random_owned_controlled_state = {
 		limit = {
-			coastal_bunker > 1
+			coastal_bunker < 3
 		}
 		add_building_construction = {
 			type = coastal_bunker
@@ -667,6 +675,7 @@ commission_coast_defence = {
 	random_owned_controlled_state = {
 		limit = {
 			coastal_bunker > 1
+			coastal_bunker < 3
 		}
 		add_building_construction = {
 			type = coastal_bunker
@@ -677,7 +686,8 @@ commission_coast_defence = {
 
 	random_owned_controlled_state = {
 		limit = {
-			coastal_bunker > 1
+		    coastal_bunker > 1
+			coastal_bunker < 3
 		}
 		add_building_construction = {
 			type = coastal_bunker

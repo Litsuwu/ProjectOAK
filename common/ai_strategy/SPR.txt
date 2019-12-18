@@ -1,6 +1,6 @@
 no_spanish_wierdness = {
 	enable = {
-		tag = SPR
+		original_tag = SPR
 		country_exists = ENG
 	}
 	abort = {
@@ -17,5 +17,41 @@ no_spanish_wierdness = {
 		type = antagonize
 		id = "ENG"
 		value = -100
+	}
+}
+no_spanish_volunteers_xenbungo = {
+	enable = {
+		original_tag = SPR
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SOV"
+		value = -3000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GER"
+		value = -3000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ITA"
+		value = -3000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "JAP"
+		value = -3000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MAN"
+		value = -3000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MEN"
+		value = -3000
 	}
 }

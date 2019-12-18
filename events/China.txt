@@ -82,7 +82,7 @@ country_event = {
 
 	trigger = {
 		tag = PRC
-		num_of_controlled_states > 3
+		num_of_controlled_states > 6
 		has_country_leader = { ruling_only = yes name = "Mao Zedong" }
 	}
 	
