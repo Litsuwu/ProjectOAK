@@ -1,6 +1,6 @@
 ideas = {
     theorist_production = {
-	TUR_mumtaz_okmen = {
+		TUR_mumtaz_okmen = {
 
 			picture = generic_political_advisor_europe_5
 

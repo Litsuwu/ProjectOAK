@@ -51,7 +51,7 @@ ideas = {
 		
 	}
 	theorist_production = {
-     SWE_ernst_wigforss = {
+		SWE_ernst_wigforss = {
 
 			picture = generic_political_advisor_europe_3
 			

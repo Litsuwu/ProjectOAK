@@ -102,7 +102,7 @@ anti_uk_war_goals = {
 	ai_strategy = {
         type = area_priority
         id = suez
-        value = 150
+        value = 100
     }	
 }
 
