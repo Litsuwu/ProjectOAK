@@ -3376,28 +3376,7 @@ focus_tree = {
 			}
 		}
 	}	
-	focus = {
-		id = SOV_german_invasion
-		icon = GFX_SOV_red_army
-		cost = 7.16	
-		prerequisite = {
-			focus = SOV_armored_cavalry
-			focus = SOV_shock_and_awe
-			focus = SOV_establish_a_new_officer_training_center
-		}
-		ai_will_do = {
-			factor = 100			
-		}
-		
-		available = {
-			has_war_with = GER 
-		}
-
-		x = 0
-		y = 1
-
-		relative_position_id = SOV_shock_and_awe
-	}
+	
 	focus = {
 		id = SOV_the_great_patriotic_war
 		icon = GFX_SOV_red_army
