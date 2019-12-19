@@ -1,17 +1,6 @@
 spriteTypes = {	
 
 	spriteType = {
-		name = "GFX_GER_private_military_industrial_complex"
-		texturefile = "gfx/interface/goals/ger/GER_private_owned_industry.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_GER_the_states_military_industrial_complex"
-		texturefile = "gfx/interface/goals/ger/GER_state_owned_military_industrial_complex.dds"
-	}	
-
-
-	spriteType = {
 		name = "GFX_GER_the_final_crusade"
 		texturefile = "gfx/interface/goals/ger/GER_final_crusade.dds"
 	}	

@@ -413,30 +413,9 @@ focus_tree = {
 					instant_build = yes 
 				}
 			}		
-		}
-	}
 
-	focus = {
-		id = GER_private_military_industrial_complex
-		relative_position_id = GER_continue_the_new_plan
-		icon = GOAL_unknown 
-		prerequisite = { focus = GER_resource_rationing }
-		prerequisite = { focus = GER_new_subsidiaries }
-		x = 0
-		y = 5
-		cost = 5
-
-		available = {
-			has_idea = hjalmar_schacht
-		}
-
-		ai_will_do = {
-			factor = 12
-		}
-		
-		completion_reward = {
 			custom_effect_tooltip = available_industrial_concern
-			show_ideas_tooltip = krupp_industrial_concern
+			show_ideas_tooltip = idea_krupp						
 		}
 	}
 
@@ -1181,29 +1160,6 @@ focus_tree = {
 			hidden_effect = {
 				GER_mefo_bills_level_up = yes
 			}
-		}
-	}
-
-	focus = {
-		id = GER_the_states_military_industrial_complex
-		icon = GFX_focus_unknown
-		prerequisite = { focus = GER_seize_private_iron_ore }
-		prerequisite = { focus = GER_expand_the_reichswerke }
-
-		relative_position_id = GER_curtail_the_steel_barons
-		x = 0
-		y = 4
-		cost = 5
-		available = {
-		}
-		
-		ai_will_do = {
-			factor = 5 
-		}
-		
-		completion_reward = {
-			custom_effect_tooltip = available_industrial_concern
-			show_ideas_tooltip = reichswerke_hermann_goring
 		}
 	}
 
