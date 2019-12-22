@@ -1596,15 +1596,18 @@ ideas = {
 			picture = generic_infantry_bonus
 			
 			modifier = {
+				justify_war_goal_time = -10.0
+				generate_wargoal_tension = -1.0
 				land_reinforce_rate = 0.1
 				army_morale_factor = 0.5
 				army_org_Factor = 0.5
-				army_speed_factor = 0.25
+				army_speed_factor = 1.0
 				army_core_attack_factor = 0.5
 				army_core_defence_factor = 0.5
-				army_attack_factor = 0.5
-				army_defence_factor = 0.5
+				army_attack_factor = 1.5
+				army_defence_factor = 1.5
 				air_cas_present_factor = 0.5
+				weekly_manpower = 1000
 				
 	            political_power_factor = 1.5
 	            research_speed_factor = 1.0

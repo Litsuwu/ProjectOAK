@@ -10,7 +10,7 @@
  multiplayer.2.a:0 "Rehost time"
  
  yak.1.t:0 "The Great Yak Ascends"
- yak.1.d:0 "It was a cloudy day in the Himalayas when suddenly the sky was ripped open and a great Yak decended from the heavens. He told me he was tired of seeing Tibet being prey of our neighbors and that our time has come to take what is rightfully ours!"
+ yak.1.d:0 "It was a cloudy day in the Himalayas when suddenly the sky was ripped open and a great Yak decended from the heavens. He told me he was tired of seeing Tibet being the prey of our neighbors and that the time has come to take what is rightfully ours!"
  yak.1.a:0 "All Hail The Yak!"
  yak.1.b:0 "I have to stop using acid..."
  yak.2.t:0 "The Great Yak Ascends in Tibet"
@@ -19,6 +19,7 @@
  godlike_creature:0 "Godlike Creature"
  great_yak_idea:0 "Blessing of the Great Yak"
  yak_command:0 "Command from Heaven"
+ yak_command_desc:0 "There can be only one leader"
  #salò
  salo.1:0 "The King and Badoglio have signed an armistice!"
  salo.1.t:0 "The King and Badoglio have signed an armistice!"

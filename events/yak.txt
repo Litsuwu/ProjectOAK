@@ -27,7 +27,7 @@ country_event = {
 		news_event = { days = 6 id = yak.2 }
 		create_field_marshal = {
 			name = "The Great Yak"
-			portrait_path = "gfx/leaders/YAK/Portrait_Great_Yak.dds"
+			portrait_path = "gfx/leaders/TIB/Portrait_Great_Yak.dds"
 			traits = { yak_command }
 			skill = 9
 			attack_skill = 9
@@ -37,7 +37,7 @@ country_event = {
 		}
 		create_corps_commander = {
 			name = "The Great Yak"
-			portrait_path = "gfx/leaders/YAK/Portrait_Great_Yak.dds"
+			portrait_path = "gfx/leaders/TIB/Portrait_Great_Yak.dds"
 			traits = { yak_command }
 			skill = 9
 			attack_skill = 9
@@ -46,8 +46,8 @@ country_event = {
 			logistics_skill = 9
 		}
 		TIB = { 
-			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000000 producer = TIB }
-			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 5000000 producer = TIB }
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 700000 producer = TIB }
+			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 700000 producer = TIB }
 		}		
 	}
 	option = { 
