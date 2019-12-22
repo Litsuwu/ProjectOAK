@@ -812,7 +812,7 @@ ideas = {
 			picture = generic_navy_bonus 
 
 			modifier = {
-			naval_strike_targetting_factor = 0.2
+				naval_strike_targetting_factor = 0.2
 			}
 		}
 
@@ -1425,6 +1425,21 @@ ideas = {
 		}
 		
 		## end of 1.5 cornflakes stuff
+
+		TUR_rare_metal_trade = { 
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+				min_export = 0.1 
+			}
+            
+			picture = can_wartime_prices_and_trade_board
+			
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.5 
+			}
+		}
 
 		ITA_iron_alliance = {
 			allowed = {

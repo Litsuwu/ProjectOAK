@@ -1,4 +1,109 @@
 spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_GER_underground_factories"
+		texturefile = "gfx/interface/goals/ger/GER_underground_industry.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_western_knowledge"
+		texturefile = "gfx/interface/goals/ger/GER_western_knowledge.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ig_faben_seize_chemicals"
+		texturefile = "gfx/interface/goals/ger/GER_seize_foreign_chemicals.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_invest_aircraft"
+		texturefile = "gfx/interface/goals/ger/GER_luftwaffe_investment.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_air_innovation_2"
+		texturefile = "gfx/interface/goals/ger/GER_luftwaffe_expansion.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_total_war"
+		texturefile = "gfx/interface/goals/ger/GER_total_war.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_specialization_of_worker_skills"
+		texturefile = "gfx/interface/goals/ger/GER_specialization_of_worker_skills.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_consolidate_production_lines"
+		texturefile = "gfx/interface/goals/ger/GER_consolidation_of_production_lines.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_air_shield"
+		texturefile = "gfx/interface/goals/ger/GER_air_defence.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_disperse_industry"
+		texturefile = "gfx/interface/goals/ger/GER_disperse_industry.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_mobilize_the_reich"
+		texturefile = "gfx/interface/goals/ger/GER_mobilize_the_reich.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_summon_fritz_todt"
+		texturefile = "gfx/interface/goals/ger/GER_summon_fritz_todt.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_swiss_cash"
+		texturefile = "gfx/interface/goals/ger/GER_swiss_money_laundry.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_mobilize_the_reich"
+		texturefile = "gfx/interface/goals/ger/GER_mobilize_the_reich.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_swedish_steel"
+		texturefile = "gfx/interface/goals/ger/GER_swedish_trade.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_arbeitseinsatz"
+		texturefile = "gfx/interface/goals/ger/GER_arbeitsinsatz.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_exploit_the_east"
+		texturefile = "gfx/interface/goals/ger/GER_exploit_and_plunder.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_implement_rationing"
+		texturefile = "gfx/interface/goals/ger/GER_ration_fuel.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_women_in_the_workforce"
+		texturefile = "gfx/interface/goals/ger/GER_women_in_the_workforce.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_trust_in_the_luftwaffe"
+		texturefile = "gfx/interface/goals/ger/GER_trust_in_the_luftwaffe.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_trade_route_to_turkey"
+		texturefile = "gfx/interface/goals/ger/GER_turkey_trade_route.dds"
+	}	
 
 	spriteType = {
 		name = "GFX_GER_private_military_industrial_complex"

@@ -1,5 +1,5 @@
 name="- Hearts of Oak -"
-path="C:/Users/samue/Documents/Paradox Interactive/Hearts of Iron IV/mod/ProjectOAK"
+path="C:/Users/erikc/Documents/Paradox Interactive/Hearts of Iron IV/mod/ProjectOAK"
 tags={
 	"Gameplay"
 	"Historical"
