@@ -3379,8 +3379,8 @@ foreign_politics = {
 		available = {
 			date > 1941.1.1
 			SPR = { has_civil_war = no }
-			SPR = { NOT = { has_government = fascism }
-			}
+			SPR = { NOT = { has_government = fascism } }
+			has_war_with = SOV
 			FRA = {
 				OR = {
 					NOT = { country_exists = THIS }
@@ -3444,6 +3444,7 @@ foreign_politics = {
 		available = {
 			date > 1941.1.1
 			SPR = { has_civil_war = no }
+			SPR = { num_of_factories > 120 }
 			any_other_country = {
 				original_tag = SPR
 				has_government = fascism
