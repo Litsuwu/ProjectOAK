@@ -3376,7 +3376,7 @@ focus_tree = {
 			factor = 12
 		}
 		available  = {
-			factor = 12
+			GER = { has_full_control_of_state = 202 }
 		}
 		available_if_capitulated = yes
 		completion_reward = {
