@@ -56,7 +56,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_alfried_krupp"
-		texturefile = "gfx/interface/ideas/ministers/alfried_krpp.dds"
+		texturefile = "gfx/interface/ideas/ministers/alfried_krupp.dds"
 	}		
 	spriteType = {
 		name = "GFX_idea_GER_steel_barons"
