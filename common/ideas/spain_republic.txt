@@ -3,7 +3,7 @@ ideas = {
 	country = {
 	    spanish_civil_war_republic = {
 
-			picture = MEX_revolutionary_army
+			picture = spanish_civil_war
 
 		    allowed = {
 				original_tag = SPR

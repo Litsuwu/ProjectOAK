@@ -30,7 +30,6 @@ ai_historical_focus_list_GER = {
 		GER_kdf_wagen
 		GER_absorb_rheinmetall
 		GER_expand_the_reichswerke
-		GER_take_over_skoda
 		GER_Wehrmacht 
 		GER_air_innovation
 		GER_udets_strike_force
@@ -38,20 +37,15 @@ ai_historical_focus_list_GER = {
 		GER_modern_fighter
 		GER_achtung_panzer
 		GER_siemens
-		GER_extra_tech_slot
 		GER_armor_design_competition
-		GER_Panzer_division
 		ig_faben
 		GER_synthetic_oil_refinery
 		GER_synthetic_rubber_refinery
 		GER_mobilize_the_reich
-		GER_sieg_im_westen
 		GER_swedish_steel
 		GER_swiss_cash
-		GER_fall_weiss
 		GER_polish_occupation
 		GER_wesereberung
-		GER_fall_gelb
 		GER_occupation_of_the_benelux
 		GER_occupation_of_france
 		GER_plunder_their_economy
@@ -61,7 +55,6 @@ ai_historical_focus_list_GER = {
 		GER_consolidate_production_lines
 		GER_summon_fritz_todt
 		GER_total_war
-		GER_drang_nach_osten
 		GER_the_winter_of_1941
 		GER_offense_is_the_best_defense
 		GER_the_wild_cats_that_roam_in_russia

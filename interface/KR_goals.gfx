@@ -436,15 +436,10 @@ spriteTypes = {
 		name = "GFX_goal_ger_heer"
 		texturefile = "gfx/interface/goals/ger/goal_ger_heer.dds"
 	}
-
+	
 	spriteType = {
 		name = "GFX_goal_ger_luftwaffe"
 		texturefile = "gfx/interface/goals/ger/goal_luftwaffe.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_goal_bf_luftwaffe"
-		texturefile = "gfx/interface/goals/ger/goal_ger_luftwaffe.dds"
 	}
 
 	spriteType = {
@@ -633,73 +628,13 @@ spriteTypes = {
 	## GER FOCUS ## 
 
 	SpriteType = {
-		name = "GFX_focus_air_investment"
-		texturefile = "gfx/interface/goals/ger/ger_air_investment.dds"			
-	}
-
-	SpriteType = {
 		name = "GFX_GER_armor_design_competition"
 		texturefile = "gfx/interface/goals/ger/ger_second_gen_tanks.dds"			
 	}
 
 	SpriteType = {
-		name = "GFX_focus_ger_electronical_investment"
-		texturefile = "gfx/interface/goals/ger/ger_electronical_investment.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_electronical_investment_2"
-		texturefile = "gfx/interface/goals/ger/ger_electronical_investment2.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_infantry_investment"
-		texturefile = "gfx/interface/goals/ger/ger_infantry_investment.dds"			
-	}
-
-	SpriteType = {
 		name = "GFX_focus_ger_crush_the_reds"
 		texturefile = "gfx/interface/goals/ger/ger_crush_the_reds.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_economics"
-		texturefile = "gfx/interface/goals/ger/ger_economics.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_endsieg"
-		texturefile = "gfx/interface/goals/ger/ger_endsieg.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_goal_a_million_dead"
-		texturefile = "gfx/interface/goals/ger/ger_goal_a_million_dead.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_goal_air"
-		texturefile = "gfx/interface/goals/ger/ger_goal_air.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_goal_skoda"
-		texturefile = "gfx/interface/goals/ger/ger_goal_skoda.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_goal_air_2"
-		texturefile = "gfx/interface/goals/ger/ger_goal_air_2.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_goal_gestapo1"
-		texturefile = "gfx/interface/goals/ger/ger_goal_gestapo1.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_goal_gestapo2"
-		texturefile = "gfx/interface/goals/ger/ger_goal_gestapo2.dds"			
 	}
 
 	SpriteType = {
@@ -723,24 +658,9 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_ger_goal_military_mission"
-		texturefile = "gfx/interface/goals/ger/ger_goal_military_mission.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_goal_military_mission_2"
-		texturefile = "gfx/interface/goals/ger/ger_goal_military_mission2.dds"			
-	}
-
-	SpriteType = {
 		name = "GFX_focus_ger_goal_werewolf"
 		texturefile = "gfx/interface/goals/ger/ger_goal_werewolf.dds"			
 	}	
-
-	SpriteType = {
-		name = "GFX_focus_ger_mefo_payments"
-		texturefile = "gfx/interface/goals/ger/ger_mefo_payments.dds"			
-	}
 
 	SpriteType = {
 		name = "GFX_focus_ger_seize_stuff"
@@ -750,11 +670,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_ger_wargames"
 		texturefile = "gfx/interface/goals/ger/ger_wargames.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_ger_victory_in_afrika"
-		texturefile = "gfx/interface/goals/ger/ger_victory_in_afrika.dds"			
 	}
 
 	SpriteType = {
@@ -771,15 +686,15 @@ spriteTypes = {
 		name = "GFX_focus_ger_osttruppen"
 		texturefile = "gfx/interface/goals/ger/ger_osttruppen.dds"			
 	}
-
+	
+	spriteType = {
+		name = "GFX_GER_charge_of_the_light_brigade"
+		texturefile = "gfx/interface/goals/ger/GER_charge_of_the_light_brigade.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_focus_ger_stalingrad"
 		texturefile = "gfx/interface/goals/ger/focus_ger_stalingrad.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_focus_teutonic_panzers"
-		texturefile = "gfx/interface/goals/ger/ger_teutonic_panzers.dds"			
 	}
 
 	SpriteType = {
@@ -787,10 +702,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ger/ger_final_crusade.dds"			
 	}
 
-	SpriteType = {
-		name = "GFX_focus_ger_battle_of_stalingrad"
-		texturefile = "gfx/interface/goals/ger/ger_battle_of_stalingrad.dds"			
-	}	
 	#usa
 	SpriteType = {
 		name = "GFX_goal_OTT_constitution"
@@ -1312,22 +1223,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_goal_infantry_man_primacy"
 		texturefile = "gfx/interface/goals/ger/goal_infantry_man_primacy.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_GER_drang_nach_osten"
-		texturefile = "gfx/interface/goals/ger/GER_drang_nach_osten.dds"
-	}	
+	}		
 
 	spriteType = {
 		name = "GFX_GER_winter_of_1941"
 		texturefile = "gfx/interface/goals/ger/GER_winter_of_1941.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_GER_fortress_strategy"
-		texturefile = "gfx/interface/goals/ger/GER_fortress_strategy.dds"
-	}	
+	}		
 
 	spriteType = {
 		name = "GFX_GER_heavy_tiger_cats"
