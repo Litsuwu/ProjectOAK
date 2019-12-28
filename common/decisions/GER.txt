@@ -2936,13 +2936,6 @@ foreign_politics = {
 					type = annex_everything
 				}
 		    }
-			if = {
-				limit = { has_idea = general_staff }
-				swap_ideas = {
-					remove_idea = general_staff
-					add_idea = general_staff2
-				}
-			}
 			add_timed_idea = {
 			    idea = Barbarossa_I
 			    days = 110

@@ -620,18 +620,24 @@ on_actions = {
 			if = {
 				limit = {
 					tag = GER	
+					has_war_with = SOV 
+				}
+				if = {
+					limit = { has_idea = general_staff }
+					swap_ideas = {
+						remove_idea = general_staff
+						add_idea = general_staff2
+					}
+				}							
+			}
+			if = {
+				limit = {
+					tag = GER	
 					has_war_with = GRE 
 				}
 				complete_national_focus = GER_secure_hellas		
 			}	
-		
-			if = {
-				limit = {
-					tag = GER	
-					has_war_with = YUG 
-				}
-				complete_national_focus = GER_fuhrer_directive_25		
-			}	
+			
 			if = {
 				limit = {
 					OR = {

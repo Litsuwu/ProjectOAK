@@ -2584,10 +2584,6 @@ focus_tree = {
 			has_political_power > 99  
 		}
 		cancel_if_invalid = yes 
-		mutually_exclusive = { 
-			focus = GER_air_shield
-			focus = GER_disperse_industry
-		}
 
 		x = 0
 		y = 2
@@ -2611,10 +2607,6 @@ focus_tree = {
 			has_war_support > 0.79  
 		}
 		cancel_if_invalid = yes 
-		mutually_exclusive = { 
-			focus = GER_air_shield
-			focus = GER_disperse_industry
-		}
 
 		x = 0
 		y = 3
@@ -2625,7 +2617,6 @@ focus_tree = {
 		
 		completion_reward = {
 			unlock_decision_tooltip = women_in_the_workforce
-			add_political_power = -100 
 		}
 	}	
 
@@ -3097,6 +3088,7 @@ focus_tree = {
 
 		available = {
 			date > 1942.01.01
+			has_war_with = SOV
 		}
 
 		available_if_capitulated = yes
