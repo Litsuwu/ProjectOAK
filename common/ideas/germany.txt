@@ -183,6 +183,7 @@ ideas = {
 				fascism_drift = 0.05
 			}
 		}	
+
 		#blitz after poland for 180 days
 		GER_blitzkrieg = {
 		
@@ -219,14 +220,13 @@ ideas = {
 			
 			picture = great_depression
 
-			research_bonus = { industry = -0.4 }
+			research_bonus = { industry = -0.5 }
 		
 			modifier = {
 
-				production_factory_max_efficiency_factor = -0.10
+				production_factory_max_efficiency_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.10
-				industrial_capacity_factory = -0.25
-				local_resources_factor = -0.25
+				industrial_capacity_factory = -0.35
 			}
 		}
 
@@ -509,6 +509,54 @@ ideas = {
 				political_power_cost = 0.2
 			}
 		}
+
+		GER_rationing = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				fuel_gain_factor_from_states = 0.05 
+				max_fuel_factor = 0.05
+				consumer_goods_factor = -0.02
+				stability_factor = -0.1 
+				political_power_factor = -0.1
+			}
+		}
+
+		GER_arbeitsinsatz = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				political_power_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_start_efficiency_factor = -0.1
+				industrial_capacity_factory = 0.1  
+				resistance_tick_auto = 0.1
+				enemy_partisan_effect = 0.1
+			}
+		}
+
 
 		GER_atlantikwall_idea = {
 		
@@ -1563,12 +1611,11 @@ ideas = {
 			picture = generic_production_bonus
 
 			modifier = {
-				conscription = 0.03
-				production_factory_efficiency_gain_factor = -0.15
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = -0.1
-				industry_repair_factor = -0.1
-				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.15
+				industry_repair_factor = 0.1
+				resistance_tick_auto = 0.2
+				enemy_partisan_effect = 0.2
 			}
 		}
 		
@@ -1607,10 +1654,8 @@ ideas = {
 			
 			modifier = {
 				army_org_Factor = 0.2
-				command_power_gain = 0.05
-				political_power_gain = -0.05	
-				max_planning = 0.02
-				planning_speed = -0.04	
+				command_power_gain = 0.1
+				planning_speed = 0.15	
 			}
 		}
 
@@ -1618,206 +1663,94 @@ ideas = {
 			
 			allowed = {
 				original_tag = GER
-			}
+			}			
+
+			picture = general_staff
 
 			allowed_civil_war = {
 				always = yes
 			}
 			
-			picture = general_staff
-
 			removal_cost = -1
 			
 			modifier = {
-				army_org_Factor = 0.22
-				command_power_gain = 0.06
-				political_power_gain = -0.1
-				max_planning = 0.04
-				planning_speed = -0.08	
+				army_org_Factor = 0.2
+				command_power_gain = 0.1
+				planning_speed = 0.15	
+				winter_attrition_factor = 0.5
+				acclimatization_cold_climate_gain_factor = -0.5
 			}
-		}
-		
+		}		
+
 		general_staff3 = {
 			
 			allowed = {
 				original_tag = GER
-			}
+			}			
+
+			picture = general_staff
 
 			allowed_civil_war = {
 				always = yes
 			}
-
-			picture = general_staff
 			
 			removal_cost = -1
 			
 			modifier = {
-				army_org_Factor = 0.24
-				command_power_gain = 0.07
-				political_power_gain = -0.15
-				max_planning = 0.06
-				planning_speed = -0.12
+				army_org_Factor = 0.2
+				command_power_gain = 0.1
+				planning_speed = 0.15	
 			}
-		}
+		}		
 
 		general_staff4 = {
 			
 			allowed = {
 				original_tag = GER
-			}
-			
+			}			
+
+			picture = general_staff
+
 			allowed_civil_war = {
 				always = yes
 			}
-
-			picture = general_staff
 			
 			removal_cost = -1
 			
 			modifier = {
-				army_org_Factor = 0.26
-				command_power_gain = 0.08
-				political_power_gain = -0.2
-				max_planning = 0.08
-				planning_speed = -0.16
+				army_org_Factor = 0.2
+				command_power_gain = 0.1
+				planning_speed = 0.15	
+				max_planning = 0.1
+				dig_in_speed_factor = 0.2
+				max_command_power = 50
 			}
-		}
+		}		
 
 		general_staff5 = {
 			
 			allowed = {
 				original_tag = GER
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			}			
 
 			picture = general_staff
-			
-			removal_cost = -1
-			
-			modifier = {
-				army_org_Factor = 0.3
-				command_power_gain = 0.1
-				political_power_gain = -0.25
-				max_planning = 0.1
-				planning_speed = -0.2
-			}
-		}
-
-		general_staff6 = {
-			
-			allowed = {
-				original_tag = GER
-			}
 
 			allowed_civil_war = {
 				always = yes
 			}
 			
-			picture = general_staff
-
 			removal_cost = -1
 			
 			modifier = {
-				army_org_Factor = 0.3
+				army_org_Factor = 0.2
 				command_power_gain = 0.1
-				political_power_gain = -0.25
-				max_planning = 0.1
-				planning_speed = -0.2
-				acclimatization_cold_climate_gain_factor = -1
-				winter_attrition_factor = 0.2							
-			}
-		}
-
-		general_staff7 = {
-			
-			allowed = {
-				original_tag = GER
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = general_staff
-
-			removal_cost = -1
-			
-			modifier = {
-				army_org_Factor = 0.3
-				command_power_gain = 0.1
-				political_power_gain = -0.25
-				max_planning = 0.1
-				planning_speed = -0.2
-				acclimatization_cold_climate_gain_factor = 0.2
-				consumer_goods_factor = 0.02			
-			}
-		}
-
-		general_staff8 = {
-			
-			allowed = {
-				original_tag = GER
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = general_staff
-
-			removal_cost = -1
-			
-			targeted_modifier = { 
-				tag = SOV 
-				defense_bonus_against = 0.1 
-			}	
-
-			modifier = {
-				army_org_Factor = 0.3
-				command_power_gain = 0.1
-				political_power_gain = -0.3
-				max_planning = 0.1
-				planning_speed = -0.2
-				acclimatization_cold_climate_gain_factor = 0.2
+				planning_speed = 0.15	
 				max_dig_in = 7.5
 				dig_in_speed_factor = -0.35
-				non_core_manpower = 0.001
-			}
-		}
-
-		general_staff9 = {
-			
-			allowed = {
-				original_tag = GER
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = general_staff
-
-			removal_cost = -1
-			
-			targeted_modifier = { 
-				tag = SOV 
-				attack_bonus_against = 0.1 
-			}	
-
-			modifier = {
-				army_org_Factor = 0.3
-				command_power_gain = 0.1
-				political_power_gain = -0.3
-				max_planning = 0.2
-				dig_in_speed_factor = 0.2
 				max_command_power = 50
-				acclimatization_cold_climate_gain_factor = 0.2
 
 			}
-		}
+		}		
 
 		OB_ost_turtle = {
 			
@@ -2896,9 +2829,7 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = GER_Feuerzauber
 			}
-			
 			
 			research_bonus = {
 				cat_battlefield_support = 0.15
@@ -3008,37 +2939,6 @@ ideas = {
 				industrial_capacity_factory = 0.15
 				political_power_cost = 0.1
 				consumer_goods_factor = 0.01 
-			}
-		}
-
-		ig_faben = {
-			
-			allowed = {
-				original_tag = GER
-			}
-
-			available = {
-				has_Completed_focus = ig_faben
-			}
-
-			visible = {
-				NOT = { has_completed_focus = ig_faben_rubber }
-				NOT = { has_completed_focus = ig_faben_oil }
-			}
-			
-			research_bonus = {
-				synth_resources = 0.1
-			}
-
-			modifier = {
-				production_speed_synthetic_refinery_factor = 0.075
-				production_speed_synthetic_rubber_refinery_factor = 0.075
-			}
-
-			traits = { GER_refinery_concern }
-			
-			ai_will_do = {
-				factor = 1
 			}
 		}
 
@@ -3435,6 +3335,21 @@ ideas = {
 			
 			traits = { captain_of_industry }
 		}
+
+		alfried_krupp = {
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				has_completed_focus = GER_krupp_in_charge 
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+
 		walther_funk = {
 			
 			allowed = {
