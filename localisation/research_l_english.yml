@@ -283,6 +283,7 @@
  improved_infantry_weapons_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Improved weapon models and more specialized equipment."
  advanced_infantry_weapons2:0 "Improved Infantry Equipment III"
  advanced_infantry_weapons2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Further Modernized to include personal Assault Rifles and anti-tank rockets. Improved availability of weapons previously distributed to a limited extent."
+ GER_advanced_infantry_weapons:0 "MKb 42(W)"
  infantry_at:0 "Infantry Anti-Tank I"
  infantry_at_desc:0 "Arming our infantry units with anti-tank rifles will allow them to take out lighter armored vehicles while maintaining mobility."
  motorized_rocket_unit:0 "Motorized Rocket Artillery"
