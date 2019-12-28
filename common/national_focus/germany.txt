@@ -10,7 +10,7 @@ focus_tree = {
 		}
 	}
 	
-	continuous_focus_position = { x = 2000 y = 850 }
+	continuous_focus_position = { x = 3200 y = 850 }
 	default = no
 
 	## Goering 4 year plan ##
@@ -2814,7 +2814,7 @@ focus_tree = {
 		id = GER_Schutzstaffel_focus
 		icon = GFX_goal_Waffen_SS
 		relative_position_id = GER_Wehrmacht
-		x = 5
+		x = 4
 		y = 0
 		cost = 5
 		
@@ -3598,9 +3598,6 @@ focus_tree = {
 				ahead_reduction = 1 
 			}		
 			add_tech_bonus = {
-				uses = 1
-				bonus = 1 
-				ahead_reduction = 1 
 				technology = ger_medium_spaa_1940
 				technology = ger_medium_spaa_1942
 				technology = ger_medium_spaa_1944
@@ -3654,7 +3651,7 @@ focus_tree = {
 		id = GER_air_innovation	 ## Luftwaffe
 		text = GER_air_innovation
 		icon = GFX_goal_ger_luftwaffe
-		x = 16
+		x = 17
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -4392,7 +4389,7 @@ focus_tree = {
 	focus = {
 		id = GER_prepare_the_kriegsmarine
 		icon = GFX_goal_ger_kriegsmarine
-		x = 28
+		x = 32
 		y = 0
 		cost = 5
 		ai_will_do = {
