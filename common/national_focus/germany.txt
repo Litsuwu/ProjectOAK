@@ -10,7 +10,7 @@ focus_tree = {
 		}
 	}
 	
-	continuous_focus_position = { x = 3200 y = 850 }
+	continuous_focus_position = { x = 2100 y = 850 }
 	default = no
 
 	## Goering 4 year plan ##
@@ -1279,11 +1279,24 @@ focus_tree = {
 			add_tech_bonus = {
 				name = mefo_tech_bonus
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = artillery
-				
 			}
-			
+
+			add_tech_bonus = {
+				name = mefo_tech_bonus
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+			}
+
+			add_tech_bonus = {
+				name = mefo_tech_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}			
+
 			effect_tooltip = {
 				GER_mefo_bills_level_up = yes
 			}
@@ -1433,7 +1446,8 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			GER_economy_of_plunder = yes 
+			add_political_power = 50
+			add_stability = 0.1 
 		}
 	}		
 
@@ -1874,7 +1888,7 @@ focus_tree = {
 		relative_position_id = GER_occupation_of_the_benelux
 		x = 1
 		y = 1
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 12
 		}
@@ -2036,6 +2050,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
+			add_political_power = 100 
 			GER_economy_of_plunder = yes 
 		}
 	}		
@@ -2415,7 +2430,7 @@ focus_tree = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
-					instant = yes 
+					instant_build = yes 
 				}
 			} 
 
@@ -2461,7 +2476,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-
+			add_ideas = GER_arbeitsinsatz
 		}
 	}		
 
@@ -2810,223 +2825,11 @@ focus_tree = {
 
 	## end of wunderwaffen ##
 
-	focus = { ## SS
-		id = GER_Schutzstaffel_focus
-		icon = GFX_goal_Waffen_SS
-		relative_position_id = GER_Wehrmacht
-		x = 4
-		y = 0
-		cost = 5
-		
-		ai_will_do = {
-			factor = 15
-		}
-		
-		available = {
-		     is_puppet = no
-		     has_government = fascism
-		}
-		
-		completion_reward = {
-			if = {
-				limit = {
-					is_ai = no
-				}
-
-				set_technology = {
-		              ss_police = 1
-				}
-
-				add_ideas = waffen_ss
-
-				custom_effect_tooltip = available_political_advisor
-				show_ideas_tooltip = heinrich_himmler
-			}
-			add_tech_bonus = {
-				name = SS_special
-				bonus = 1
-				uses = 2
-				technology = tech_military_police
-				technology = tech_military_police2
-				technology = tech_military_police3
-				technology = tech_military_police4
-			}
-		}
-	}
-
-	focus = {
-		id = GER_hitler_jugend
-		icon = GFX_focus_hol_the_foundations_of_defense
-		prerequisite = { focus = GER_Schutzstaffel_focus }
-		relative_position_id = GER_Schutzstaffel_focus
-		x = 0
-		y = 1
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_stability = 0.1
-			add_manpower = 200000
-		}
-	}
-
-	focus = { 
-		id = GER_SS_armed_branch
-		icon = GFX_idea_generic_secret_police
-		prerequisite = { focus = GER_focus_control_the_army }
-		prerequisite = { focus = GER_hitler_jugend }
-		relative_position_id = GER_hitler_jugend
-		x = 0
-		y = 2
-		cost = 5
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		available = {
-			has_government = fascism
-			has_idea = heinrich_himmler
-			has_war = yes
-		}
-
-		cancel = {
-			NOT = { has_idea = heinrich_himmler }
-		}
-
-		completion_reward = {
-			custom_effect_tooltip = SS_mood_tt
-			add_to_variable = { var = wehrmacht_anger value = 2 }
-			subtract_from_variable = { var = SS_anger value = 2 }
-			SS_set_templates = yes
-			SS_resolve_effects_wehrmacht = yes
-			set_technology = {
-				ss_unlock_early_panzers = 1 
-				ss_unlock = 1 
-				ss_unlock_heavy_tanks = 1
-			}
-			create_corps_commander = {
-				name = "Walter Krüger"
-				picture = "Portrait_Germany_Walter_Kruger.dds"
-				traits = { armor_officer trait_reckless Waffen_SS  }
-				skill = 3
-				id = 15
-				attack_skill = 4
-				defense_skill = 2
-				planning_skill = 2
-				logistics_skill = 2
-			}
-			create_corps_commander = {
-				name = "Paul Hausser"
-				picture = "Portrait_Germany_Paul_Hausser.dds"
-				traits = { armor_officer motorized_officer Waffen_SS brilliant_strategist }
-				skill = 4
-				id = 20
-				attack_skill = 4
-				defense_skill = 5
-				planning_skill = 2
-				logistics_skill = 3
-			}
-
-			create_corps_commander = {
-				name = "Sepp Dietrich"
-				picture = "Portrait_Germany_Josef_Dietrich.dds"
-				traits = { armor_officer Waffen_SS  brilliant_strategist trait_reckless }
-				skill = 4
-				id = 24
-				attack_skill = 5
-				defense_skill = 4
-				planning_skill = 3
-				logistics_skill = 2
-			}
-
-			create_corps_commander = {
-				name = "Felix Steiner"
-				gfx = "GFX_portrait_ger_felix_steiner"
-				traits = { armor_officer Waffen_SS trait_reckless }
-				skill = 3
-				id = 35
-				attack_skill = 3
-				defense_skill = 2
-				planning_skill = 3
-				logistics_skill = 2
-			}
-		}
-	}
-
-	focus = { 
-		id = GER_SS_restrict_recruitment
-		icon = GFX_idea_general_staff
-		prerequisite = { focus = GER_SS_armed_branch }
-		mutually_exclusive = { focus = GER_SS_recruit_everywhere }
-		relative_position_id = GER_SS_armed_branch
-		x = 1
-		y = 1
-		cost = 2.15
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		bypass = {
-		}
-
-		available = {
-		}
-
-		completion_reward = {
-			custom_effect_tooltip = SS_recruitment_tt_2
-		}
-	}
-
-	focus = { 
-		id = GER_SS_recruit_everywhere
-		icon = GFX_idea_general_staff
-		prerequisite = { focus = GER_SS_armed_branch }
-		mutually_exclusive = { focus = GER_SS_restrict_recruitment }
-		relative_position_id = GER_SS_armed_branch
-		x = -1
-		y = 1
-		cost = 2.15
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		bypass = {
-		}
-
-		available = {
-		}
-
-		completion_reward = {
-			custom_effect_tooltip = SS_recruitment_tt
-		}
-	}
-
 	focus = {
 		id = GER_Wehrmacht
 		text = GER_Wehrmacht
 		icon = GFX_goal_ger_heer
-		relative_position_id = GER_blomberg_frisch_cover_up
-		prerequisite = { focus = GER_blomberg_frisch_cover_up }
-		x = 5
+		x = 7
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -3301,10 +3104,10 @@ focus_tree = {
 			custom_effect_tooltip = GER_winter_of_1941_tt
 			hidden_effect = {
 				if = {
-					limit = { has_idea = general_staff6 }
+					limit = { has_idea = general_staff2 }
 					swap_ideas = {
-						remove_idea = general_staff6
-						add_idea = general_staff7
+						remove_idea = general_staff2
+						add_idea = general_staff3
 					}
 				}
 			}
@@ -3605,7 +3408,6 @@ focus_tree = {
 		}
 	}
 
-
 	focus = { 
 		id = GER_the_final_crusade
 		icon = GOAL_unknown
@@ -3627,8 +3429,8 @@ focus_tree = {
 				}
 				remove_ideas = OB_ost_wolf2
 				swap_ideas = { 				
-					remove_idea = general_staff7
-					add_idea = general_staff9					
+					remove_idea = general_staff3
+					add_idea = general_staff4					
 				}
 			}
 			else_if = {
@@ -3637,13 +3439,391 @@ focus_tree = {
 				}
 				remove_ideas = OB_ost_turtle2
 				swap_ideas = { 				
-					remove_idea = general_staff7
-					add_idea = general_staff8
+					remove_idea = general_staff3
+					add_idea = general_staff5
 				}
 			}
 
 		}
 	}
+
+	focus = { ## SCW
+		id = GER_Feuerzauber
+		icon = GFX_focus_ger_goal_military_mission
+		relative_position_id = GER_Wehrmacht
+		x = 5
+		y = 0
+		cost = 2.15
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		bypass = {
+			has_global_flag = scw_over
+		}
+
+		available = {
+			SPR = { 
+				has_war = yes
+			}
+		}
+
+		completion_reward = {
+			SPR = {
+				add_ideas = GER_military_mission
+			}
+		}
+	}
+
+	focus = {
+		id = GER_BREAK_THE_REDS
+		icon = GFX_focus_ger_crush_the_reds
+		prerequisite = { focus = GER_Feuerzauber }
+		relative_position_id = GER_Feuerzauber
+		x = -1
+		y = 1
+		cost = 4.4
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		bypass = {
+		has_global_flag = scw_over
+		}
+
+		available = {
+		    SPR = { has_idea = GER_military_mission }
+			has_government = fascism
+		}
+
+		completion_reward = {
+			SPR = {
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2000 producer = GER }
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = 2000 producer = GER }
+				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = GER }
+				add_equipment_to_stockpile = { type = fighter_equipment_1936 amount = 300 producer = GER }
+				add_equipment_to_stockpile = { type = CAS_equipment_1935 amount = 150 producer = GER }
+			}
+			create_production_license = {
+			    target = SPR
+			    equipment = {
+			        type = fighter_equipment_1936
+			    }
+			    cost_factor = 0
+			}
+			create_production_license = {
+			    target = SPR
+			    equipment = {
+			        type = CAS_equipment_1935
+			    }
+			    cost_factor = 0
+			}
+			army_experience = 40
+			hidden_effect = {
+				GER_mefo_bills_level_up = yes
+				GER_mefo_bills_level_up = yes
+			}
+			custom_effect_tooltip = GER_plan_z_tt_4 
+		}
+	}
+
+	focus = {
+		id = GER_Legion_Condor
+		icon = GFX_focus_ger_goal_air_2
+		prerequisite = { focus = GER_Feuerzauber } 
+		relative_position_id = GER_Feuerzauber
+		x = 1
+		y = 1
+		cost = 2.2
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		bypass = {
+		has_global_flag = scw_over
+		}
+
+		available = {
+			SPR = {
+				has_idea = GER_military_mission
+			}
+			is_puppet = no
+			has_government = fascism
+		}
+
+		completion_reward = {
+		air_experience = 25	
+			custom_effect_tooltip = available_theorist
+			show_ideas_tooltip = wolfram_von_richthofen
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1
+				uses = 1
+				category = cas_bomber				
+			}
+			
+		}
+	}
+
+	focus = { 
+		id = GER_lessons_of_the_civil_war
+		icon = GFX_focus_ger_wargames
+		prerequisite = { focus = GER_Legion_Condor focus = GER_BREAK_THE_REDS }
+		relative_position_id = GER_Feuerzauber
+		x = 0
+		y = 2
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			has_air_experience > 60
+			has_army_experience > 60
+			SPR = { has_war = yes }
+		}
+
+		bypass = {
+		has_global_flag = scw_over
+		}
+
+		cancel {
+			has_air_experience < 60
+			has_air_experience < 60
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = scw_bonus
+				bonus = 3
+				uses = 1
+				category = battlefield_support_tree
+			}
+			add_tech_bonus = {
+				name = scw_bonus
+				bonus = 3
+				uses = 1 
+				category = land_doctrine
+			}
+			army_experience = -60
+			air_experience = -60
+		}
+	}
+
+
+	focus = { ## SS
+		id = GER_Schutzstaffel_focus
+		icon = GFX_goal_Waffen_SS
+		relative_position_id = GER_Wehrmacht
+		x = -4
+		y = 0
+		cost = 5
+		
+		ai_will_do = {
+			factor = 15
+		}
+		
+		available = {
+		     is_puppet = no
+		     has_government = fascism
+		}
+		
+		completion_reward = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+
+				set_technology = {
+		              ss_police = 1
+				}
+
+				add_ideas = waffen_ss
+
+				custom_effect_tooltip = available_political_advisor
+				show_ideas_tooltip = heinrich_himmler
+			}
+			add_tech_bonus = {
+				name = SS_special
+				bonus = 1
+				uses = 2
+				technology = tech_military_police
+				technology = tech_military_police2
+				technology = tech_military_police3
+				technology = tech_military_police4
+			}
+		}
+	}
+
+	focus = {
+		id = GER_hitler_jugend
+		icon = GFX_focus_hol_the_foundations_of_defense
+		prerequisite = { focus = GER_Schutzstaffel_focus }
+		relative_position_id = GER_Schutzstaffel_focus
+		x = 0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.1
+			add_manpower = 200000
+		}
+	}
+
+	focus = { 
+		id = GER_SS_armed_branch
+		icon = GFX_idea_generic_secret_police
+		prerequisite = { focus = GER_hitler_jugend }
+		relative_position_id = GER_hitler_jugend
+		x = 0
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		available = {
+			has_government = fascism
+			has_idea = heinrich_himmler
+			has_war = yes
+		}
+
+		cancel = {
+			NOT = { has_idea = heinrich_himmler }
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SS_mood_tt
+			add_to_variable = { var = wehrmacht_anger value = 2 }
+			subtract_from_variable = { var = SS_anger value = 2 }
+			SS_set_templates = yes
+			SS_resolve_effects_wehrmacht = yes
+			set_technology = {
+				ss_unlock_early_panzers = 1 
+				ss_unlock = 1 
+				ss_unlock_heavy_tanks = 1
+			}
+			create_corps_commander = {
+				name = "Walter Krüger"
+				picture = "Portrait_Germany_Walter_Kruger.dds"
+				traits = { armor_officer trait_reckless Waffen_SS  }
+				skill = 3
+				id = 15
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Paul Hausser"
+				picture = "Portrait_Germany_Paul_Hausser.dds"
+				traits = { armor_officer motorized_officer Waffen_SS brilliant_strategist }
+				skill = 4
+				id = 20
+				attack_skill = 4
+				defense_skill = 5
+				planning_skill = 2
+				logistics_skill = 3
+			}
+
+			create_corps_commander = {
+				name = "Sepp Dietrich"
+				picture = "Portrait_Germany_Josef_Dietrich.dds"
+				traits = { armor_officer Waffen_SS  brilliant_strategist trait_reckless }
+				skill = 4
+				id = 24
+				attack_skill = 5
+				defense_skill = 4
+				planning_skill = 3
+				logistics_skill = 2
+			}
+
+			create_corps_commander = {
+				name = "Felix Steiner"
+				gfx = "GFX_portrait_ger_felix_steiner"
+				traits = { armor_officer Waffen_SS trait_reckless }
+				skill = 3
+				id = 35
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 2
+			}
+		}
+	}
+
+	focus = { 
+		id = GER_SS_restrict_recruitment
+		icon = GFX_idea_general_staff
+		prerequisite = { focus = GER_SS_armed_branch }
+		mutually_exclusive = { focus = GER_SS_recruit_everywhere }
+		relative_position_id = GER_SS_armed_branch
+		x = 1
+		y = 1
+		cost = 2.15
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		bypass = {
+		}
+
+		available = {
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SS_recruitment_tt_2
+		}
+	}
+
+	focus = { 
+		id = GER_SS_recruit_everywhere
+		icon = GFX_idea_general_staff
+		prerequisite = { focus = GER_SS_armed_branch }
+		mutually_exclusive = { focus = GER_SS_restrict_recruitment }
+		relative_position_id = GER_SS_armed_branch
+		x = -1
+		y = 1
+		cost = 2.15
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		bypass = {
+		}
+
+		available = {
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SS_recruitment_tt
+		}
+	}
+
 
 	### LUFTWAFFE BRANCH #### 
 
@@ -3651,7 +3831,7 @@ focus_tree = {
 		id = GER_air_innovation	 ## Luftwaffe
 		text = GER_air_innovation
 		icon = GFX_goal_ger_luftwaffe
-		x = 17
+		x = 18
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -3717,7 +3897,7 @@ focus_tree = {
 		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_victory_through_airpower }
 		relative_position_id = GER_air_innovation 
-		x = -3
+		x = -2
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -3828,7 +4008,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_udets_strike_force }
 		relative_position_id = GER_air_innovation 
 		
-		x = 3
+		x = 2
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -3931,7 +4111,7 @@ focus_tree = {
 		prerequisite = { focus = GER_air_innovation }
 		icon = GFX_goal_continuous_air_production
 		relative_position_id = GER_air_innovation
-		x = 6
+		x = 5
 		y = 1
 		cost = 5
 		
@@ -3984,7 +4164,7 @@ focus_tree = {
 		icon = GFX_goal_bf_luftwaffe
 		relative_position_id = GER_air_innovation
 		x = 0
-		y = 3
+		y = 2
 		cost = 5
 		
 		ai_will_do = { 
@@ -4086,7 +4266,7 @@ focus_tree = {
 		prerequisite = { focus = GER_air_innovation }
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
 		relative_position_id = GER_air_innovation 
-		x = 8
+		x = 6
 		y = 2
 		cost = 5
 		ai_will_do = {
@@ -4129,7 +4309,7 @@ focus_tree = {
 		prerequisite = { focus = GER_invest_aircraft }
 		mutually_exclusive = { focus = GER_modern_fighter }
 		relative_position_id = GER_invest_aircraft
-		x = -2
+		x = -1
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -4160,7 +4340,7 @@ focus_tree = {
 		prerequisite = { focus = GER_invest_aircraft }
 		mutually_exclusive = { focus = GER_modern_cas }
 		relative_position_id = GER_invest_aircraft
-		x = 2
+		x = 1
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -4389,7 +4569,7 @@ focus_tree = {
 	focus = {
 		id = GER_prepare_the_kriegsmarine
 		icon = GFX_goal_ger_kriegsmarine
-		x = 32
+		x = 27
 		y = 0
 		cost = 5
 		ai_will_do = {

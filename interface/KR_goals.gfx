@@ -1,5 +1,31 @@
 spriteTypes = {	
+
 	
+	spriteType = {
+		name = "GFX_GER_paratroopers"
+		texturefile = "gfx/interface/goals/ger/GER_fallschirmjaeger.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_Feuerzauber"
+		texturefile = "gfx/interface/goals/ger/GER_spanish_civil_war.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_BREAK_THE_REDS"
+		texturefile = "gfx/interface/goals/ger/GER_break_the_reds.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_GER_Legion_Condor"
+		texturefile = "gfx/interface/goals/ger/GER_legion_condor.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_GER_lessons_of_the_civil_war"
+		texturefile = "gfx/interface/goals/ger/GER_lessons_of_the_scw.dds"
+	}	
+
 	spriteType = {
 		name = "GFX_GER_underground_factories"
 		texturefile = "gfx/interface/goals/ger/GER_underground_industry.dds"

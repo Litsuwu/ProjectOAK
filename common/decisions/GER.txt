@@ -2526,7 +2526,6 @@ foreign_politics = {
 		}
 		
 		available = {
-			has_completed_focus = GER_sieg_im_westen 
 			has_army_manpower = { size > 999999 }
 			has_capitulated = no
 			OR = {
@@ -2558,7 +2557,6 @@ foreign_politics = {
 				idea = GER_blitzkrieg
 				days = 180
 			}
-			complete_national_focus = GER_fall_weiss			
 		}
 	}
 
@@ -2830,7 +2828,6 @@ foreign_politics = {
 			hidden_effect = {
 				news_event = { hours = 6 id = news.234 }
 			}
-			complete_national_focus = GER_fall_gelb			
 		}
 	}
 
@@ -2900,16 +2897,15 @@ foreign_politics = {
         days_remove = 14
 
 		remove_effect = {
-			complete_national_focus = GER_drang_nach_osten			
 			if = {
 				limit = {
 					GER = { is_in_faction_with = HUN }
 				}
 				HUN = {
-				declare_war_on = {
-				target = SOV
-				type = annex_everything
-			      }
+					declare_war_on = {
+						target = SOV
+						type = annex_everything
+					}
 			    }	
 			}
 			if = {
@@ -2918,9 +2914,9 @@ foreign_politics = {
 				}
 				ROM = {
 				declare_war_on = {
-				target = SOV
-				type = annex_everything
-			      }
+					target = SOV
+					type = annex_everything
+					}
 			    }	
 			}
 			if = {
@@ -2928,10 +2924,10 @@ foreign_politics = {
 					GER = { is_in_faction_with = ITA }
 				}
 				ITA = {
-				declare_war_on = {
-				target = SOV
-				type = annex_everything
-			      }
+					declare_war_on = {
+						target = SOV
+						type = annex_everything
+					}
 			    }	
 			}
 			GER = {
@@ -2940,26 +2936,33 @@ foreign_politics = {
 					type = annex_everything
 				}
 		    }
-			    add_timed_idea = {
-				    idea = Barbarossa_I
-				    days = 110
-                }
-			    add_timed_idea = {
-			     	idea = Barbarossa_II
-			     	days = 180
-		     	}
-				SOV = {
-					add_ideas = SOV_surprise_strike
-					add_ideas = Disorganized_Red_Army_1
-					country_event = { id = soviet.46 days = 2 } 
+			if = {
+				limit = { has_idea = general_staff }
+				swap_ideas = {
+					remove_idea = general_staff
+					add_idea = general_staff2
 				}
+			}
+			add_timed_idea = {
+			    idea = Barbarossa_I
+			    days = 110
+            }
+		    add_timed_idea = {
+		     	idea = Barbarossa_II
+		     	days = 180
+		  	}
+			SOV = {
+				add_ideas = SOV_surprise_strike
+				add_ideas = Disorganized_Red_Army_1
+				country_event = { id = soviet.46 days = 2 } 
+			}
 			if = {
 				limit = {
 					GER = { is_ai = yes }
 					SOV = { is_ai = no }
 				}
 				SOV = {
-				add_ideas = { SOV_surprise_strike_extra_for_ai }
+					add_ideas = { SOV_surprise_strike_extra_for_ai }
 			    }	
 			}
 			hidden_effect = {	
