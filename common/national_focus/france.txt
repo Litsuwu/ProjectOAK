@@ -296,10 +296,7 @@ focus_tree = {
 	focus = {
 		id = FRA_join_the_allies
 		bypass = {
-			or = {
-				has_capitulated = yes
-				is_in_faction_with = ENG
-			}
+			is_in_faction_with = ENG
 		}
 		available = {
 			or = {
