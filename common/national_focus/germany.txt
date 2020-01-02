@@ -1173,8 +1173,7 @@ focus_tree = {
 
    focus = {
 		id = GER_siemens
-		prerequisite = { focus = GER_four_year_plan }
-		prerequisite = { focus = GER_continue_the_new_plan }
+		prerequisite = { focus = GER_four_year_plan focus = GER_continue_the_new_plan }
 		icon = GFX_goal_tfv_generic_tech_sharing
 		relative_position_id = GER_continue_the_new_plan
 		x = 6
@@ -2498,16 +2497,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			if = { limit = { has_tech = dispersed_industry }
-				add_tech_bonus = {
-					name = GER_disperse_industry
-					bonus = 3
-					uses = 3
-					technology = dispersed_industry2
-					technology = dispersed_industry3
-					technology = dispersed_industry4
-				}
+			add_tech_bonus = {
+				name = GER_disperse_industry
+				bonus = 3
+				uses = 3
+				technology = dispersed_industry2
+				technology = dispersed_industry3
+				technology = dispersed_industry4
+				technology = dispersed_industry5
 			}
+			
 			add_stability = -0.10
 			add_political_power = 50 
 		}
@@ -2529,7 +2528,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 12
+			factor = 0
 		}
 		
 		completion_reward = {
@@ -2559,7 +2558,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 12
+			factor = 0
 		}
 		
 		completion_reward = {
