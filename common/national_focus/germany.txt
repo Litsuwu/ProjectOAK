@@ -1185,7 +1185,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_tech = decimetric_radar
+			has_tech = radio_detection
 		}
 
 		bypass = {
@@ -1212,7 +1212,7 @@ focus_tree = {
 				category = electronics		
 			}
 			set_technology = { 
-				radio_detection = 1 
+				decimetric_radar = 1 
 			}
 			random_owned_controlled_state = {
 				prioritize = { 51 }
@@ -3118,8 +3118,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = OB_ost_turtle
-			custom_effect_tooltip = GER_osttruppen_tt	
-			set_technology = { osttruppen_tech = 1 }			
+			custom_effect_tooltip = GER_osttruppen_tt				
 		}
 	}			
 	focus = { 
@@ -3502,8 +3501,8 @@ focus_tree = {
 	focus = { 
 		id = GER_the_final_crusade
 		icon = GOAL_unknown
-		prerequisite = { focus = GER_new_weapons focus = GER_ambush_tactics } 
-		prerequisite = { focus = GER_endless_offensives focus = GER_division_support_structure }
+		prerequisite = { focus = GER_new_weapons focus = GER_division_support_structure  } 
+		prerequisite = { focus = GER_endless_offensives focus = GER_ambush_tactics }
 		relative_position_id = GER_the_winter_of_1941
 		x = 0
 		y = 4
