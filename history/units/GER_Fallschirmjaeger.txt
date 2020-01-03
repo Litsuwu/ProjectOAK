@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Fallschirmjaeger-Division"
-
+	priority = 2
 	division_names_group = GER_PAR_01
 
 	regiments = {

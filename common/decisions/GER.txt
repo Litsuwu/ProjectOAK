@@ -3341,7 +3341,7 @@ foreign_politics = {
 		
 		available = {
 			ROM = { is_in_faction_with = ROOT }
-			ROM = { is_puppet_of = ROOT }
+			ROM = { is_subject_of = ROOT }
 		}
 		
 		visible = {
@@ -3437,7 +3437,7 @@ foreign_politics = {
 		available = {
 			date > 1941.1.1
 			SPR = { has_civil_war = no }
-			SPR = { num_of_factories > 120 }
+			SPR = { num_of_factories > 180 }
 			any_other_country = {
 				original_tag = SPR
 				has_government = fascism

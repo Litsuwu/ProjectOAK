@@ -840,7 +840,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_navy_bonus
+			picture = escort_effort_focus
 
 			equipment_bonus = {
 				submarine = {

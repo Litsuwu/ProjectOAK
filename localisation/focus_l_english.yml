@@ -50,6 +50,8 @@
  
  osttruppen_tech:0 "Osttruppen"
 
+ GER_exploit_the_east:0 "Exploit the East"
+ GER_exploit_the_east_desc:0 ""
  GER_private_military_industrial_complex:0 "Private Military Industrial Complex"
  GER_private_military_industrial_complex_desc:0 ""
  GER_the_states_military_industrial_complex:0 "Nationalized Military Industrial Complex"

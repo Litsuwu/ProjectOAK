@@ -1441,6 +1441,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 12
 		}
+		available = {
+			has_war = yes
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 50
@@ -2045,6 +2048,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 12
 		}
+		available = {
+			has_war = yes
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 100 
@@ -2579,6 +2585,7 @@ focus_tree = {
 
 		available = {
 			has_political_power > 99  
+			has_war = yes
 		}
 		cancel_if_invalid = yes 
 
