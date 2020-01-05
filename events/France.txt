@@ -175,6 +175,7 @@ country_event = {
 	option = { # Agree
 		name = france.14.a
 		FRA = { country_event = { id = france.20 days = 7 } }
+		remove_country_leader_trait = sour_loser
 	    country_event = { hours = 6 id = news.34 }	
 	}	
 }

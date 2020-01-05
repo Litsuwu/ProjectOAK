@@ -26,86 +26,101 @@ no_spanish_volunteers_xenbungo = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "NOR"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "SLO"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "CZE"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "BEL"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "HOL"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "UKR"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
-		id = "BUL"
-		value = -3000
+		id = "HUN"
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "FIN"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "SOV"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "MON"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "GER"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "ITA"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "JAP"
-		value = -3000
+		value = -9999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "VIC"
+		value = -9999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ROM"
+		value = -9999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BUL"
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "MAN"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "MEN"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "CHI"
-		value = -3000
+		value = -9999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "PRC"
-		value = -3000
+		value = -9999
 	}
 }

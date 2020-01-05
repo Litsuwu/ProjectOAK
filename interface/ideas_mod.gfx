@@ -1,4 +1,12 @@
 spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_GER_arbeitsinsatz"
+		texturefile = "gfx/interface/ideas/GER_arbeitsinsatz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_ration_fuel"
+		texturefile = "gfx/interface/ideas/GER_ration_fuel.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_spanish_civil_war"

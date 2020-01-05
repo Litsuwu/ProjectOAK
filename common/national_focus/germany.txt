@@ -2456,6 +2456,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 12
 		}
+		bypass = {
+			has_war_with = GRE
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			create_wargoal = {

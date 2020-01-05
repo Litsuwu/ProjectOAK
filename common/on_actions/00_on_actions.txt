@@ -619,24 +619,22 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = GER	
-					has_war_with = SOV 
-				}
-				if = {
-					limit = { has_idea = general_staff }
-					swap_ideas = {
-						remove_idea = general_staff
-						add_idea = general_staff2
+					OR = {
+						FROM = {
+							tag = GER 
+							has_war_with = SOV
+						}					
+						ROOT = {
+							tag = GER 
+							has_war_with = SOV
+						}
 					}
-				}							
-			}
-			if = {
-				limit = {
-					tag = GER	
-					has_war_with = GRE 
 				}
-				complete_national_focus = GER_secure_hellas		
-			}	
+				swap_ideas = {
+					remove_idea = general_staff
+					add_idea = general_staff2
+				}			
+			}
 			
 			if = {
 				limit = {
@@ -823,7 +821,7 @@ on_actions = {
 					set_state_controller = 14
 					set_state_controller = 23
 					set_state_controller = 19
-					set_state_controller = 785
+					set_state_controller = 785		
 					country_event = { days = 7 id = germany.236 }
 				}		
 				EFR = {
