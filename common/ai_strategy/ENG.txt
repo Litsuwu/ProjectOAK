@@ -371,6 +371,22 @@ careful_with_early_invasions = {
 	}			
 }
 
+no_scandinavia_invasion = {
+	enable = {
+		OR = {
+			is_in_faction_with = ENG # anyone in allies
+			tag = FRA
+			tag = ENG
+		}
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = scandinavia
+		value = -500
+	}			
+}
+
 east_prussia_invasion_is_death_trap = {
 	enable = {
 		

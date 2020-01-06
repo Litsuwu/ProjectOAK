@@ -359,6 +359,11 @@ strike_usa = {
 		id = "PHI"			
 		value = 200
 	}
+	ai_strategy = {
+		type = conquer
+		id = "PHI"			
+		value = 200
+	}
 }
 # "I can run wild for six months… after that, I have no expectation of success"
 jap_hush_yamamoto_its_gonna_be_ok = {

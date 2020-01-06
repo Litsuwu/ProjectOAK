@@ -2513,7 +2513,6 @@ focus_tree = {
 				technology = dispersed_industry2
 				technology = dispersed_industry3
 				technology = dispersed_industry4
-				technology = dispersed_industry5
 			}
 			
 			add_stability = -0.10
@@ -2815,7 +2814,7 @@ focus_tree = {
 				name = undergroud_factories_tech_bonus
 				bonus = 1
 				uses = 1
-				technology = dispersed_industry4
+				technology = dispersed_industry5
 				
 			}
 		}

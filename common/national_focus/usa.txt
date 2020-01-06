@@ -1726,7 +1726,7 @@ focus_tree = {
 		relative_position_id = USA_arsenal_of_democracy
 		cost = 7.16
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes

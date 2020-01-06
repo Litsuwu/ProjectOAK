@@ -1668,6 +1668,7 @@ leader_traits = {
 	    production_factory_start_efficiency_factor = 0.2
 	    consumer_goods_factor = -0.03
 		enemy_partisan_effect = 0.2
+		resistance_tick_auto = 0.5 		
 		industry_repair_factor = 0.5
 		industry_free_repair_factor = 0.5
 	}

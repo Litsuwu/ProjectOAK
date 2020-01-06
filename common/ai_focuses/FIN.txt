@@ -1,5 +1,9 @@
 ai_historical_focus_list_FIN = {
 	ai_national_focuses = {
+		FIN_foreign_aid
+		FIN_pander_axis
+		FIN_pander_italy
+		FIN_rifles_and_planes
 		FIN_defend_finland
 		FIN_foreign_aid
 		FIN_abandoned
