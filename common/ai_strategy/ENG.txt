@@ -155,29 +155,6 @@ ENG_unit_production = {
 	}
 }	
 
-protect_poland_against_germany = {
-	enable = {
-		tag = ENG
-		CZE = { exists = no }
-		GER = { NOT = { has_war_with = POL } }
-		country_exists = POL
-	}
-	abort = {
-		NOT = { country_exists = POL }
-	}
-	
-	ai_strategy = {
-		type = befriend
-		id = "POL"			
-		value = 200
-	}
-	ai_strategy = {
-		type = alliance
-		id = "POL"			
-		value = 200
-	}	
-}
-
 defend_poland_against_germany = {
 	enable = {
 		tag = ENG
@@ -231,13 +208,6 @@ poor_italia= {
 royal_air_force = {
 	enable = {
 		tag = ENG
-		date > 1937.12.31
-	}
-	abort = {
-		NOT = { 
-			tag = ENG 
-			date > 1937.12.31 
-		}
 	}
 	
 	ai_strategy = {
@@ -371,19 +341,16 @@ ENG_template_design_2 = {
 # lets make sure the allies dont overcommit to invasions early on
 careful_with_early_invasions = {
 	enable = {
-
 		OR = {
 			is_in_faction_with = ENG # anyone in allies
 			tag = FRA
+			tag = ENG
 		}
 		date < 1942.9.1
-
 	}
 	abort = {
-
 		date > 1942.1.1
-		is_in_faction_with = USA
-		
+		is_in_faction_with = USA		
 	}
 
 	ai_strategy = {
