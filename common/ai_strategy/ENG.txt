@@ -400,7 +400,7 @@ careful_with_early_invasions = {
 	ai_strategy = {
 		type = area_priority
 		id = scandinavia
-		value = -300
+		value = -500
 	}			
 }
 
