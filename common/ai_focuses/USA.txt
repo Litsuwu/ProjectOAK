@@ -1,5 +1,15 @@
-
-
+ai_historical_focus_list_USA = {
+	ai_national_focuses = {
+		USA_fair_labour_standards_act
+		USA_cash_and_carry
+		USA_support_china
+		USA_the_giant_wakes
+		USA_arsenal_of_democracy
+		USA_lend_lease_act
+		USA_wartime_industry
+		USA_automative_industry_mass_production
+    }
+}
 ai_focus_defense_USA = {
 	research = {
 		defensive = 5.0	

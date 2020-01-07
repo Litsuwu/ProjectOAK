@@ -861,6 +861,7 @@ country_event = {
 				}
 			}
 		NOT = { is_in_faction_with = CHI }	
+		NOT = { has_war_with = ENG }	
 	}
 	option = {
 		name = wtt_japan.114.a
