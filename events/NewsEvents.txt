@@ -13198,6 +13198,38 @@ news_event = {
 	}
 }
 
+news_event = { 
+	id = news.457
+	title = news.457.t
+	desc = news.457.d
+	picture = GFX_news_event_generic_usa_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+   
+	option = {
+		name = news.457.a
+		trigger = {
+			has_government = democratic
+		}
+	}
+
+	option = {
+		name = news.457.b 
+		trigger = {
+			has_government = fascism
+		}
+	}
+
+	option = {
+		name = news.457.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
 news_event = {
 	id = news.3143
 	title = news.3143.t

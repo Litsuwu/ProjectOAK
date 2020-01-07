@@ -217,7 +217,6 @@ units = {
 		start_experience_factor = 0.4
 	}
 	division= {	
-		name = "Heeresdienststelle 2" 
 		location = 6334
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -291,7 +290,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "Heeresdienststelle 4" 
 		location = 6462
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -325,7 +323,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "Heeresdienststelle 8" 
 		location = 11467
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -350,7 +347,6 @@ units = {
 		start_experience_factor = 0.5
 	}
 	division= {	
-		name = "Heeresdienststelle 1"  
 		location = 6402
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -381,7 +377,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "Königsberg Grenzwacht" 
 		location = 6332
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -406,7 +401,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "Heeresdienststelle 6"  
 		location = 11264
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -431,14 +425,12 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "Heeresdienststelle 9"
 		location = 11388
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
 		
 	}
 	division= {	
-		name = "Heeresdienststelle 10" 
 		location = 11388
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -490,7 +482,6 @@ units = {
 	}
 
 	division= {	
-		name = "Heeresdienststelle 5"
 		location = 9517
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -506,7 +497,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "Heeresdienststelle 7" 
 		location = 11544
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -522,7 +512,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "Heeresdienststelle 11" 
 		location = 11497
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -549,7 +538,6 @@ units = {
 		
 	}
 	division= {	
-		name = "Heeresdienststelle 3"
 		location = 692
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.0
@@ -562,19 +550,16 @@ units = {
 		start_experience_factor = 0.7
 	}
 	division= {	
-		name = "Wilhelmshaven Grenzwacht" 
 		location = 241
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.2
 	}
 	division= {	
-		name = "Grenz-Kdtr. Eiffel Schwere Artillerie" 
 		location = 6389
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.2
 	}
 	division= {	
-		name = "Grenz-Kdtr. Eiffel Schwere Artillerie 2" 
 		location = 6389
 		division_template = "Grenzwacht" 
 		start_experience_factor = 0.2

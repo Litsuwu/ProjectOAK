@@ -7,7 +7,7 @@ USA_unique_measures = {
  	allowed = {
  		original_tag = USA
  	}
-	priority = 70
+	priority = 90
 }
  
 USA_monroe_doctrine = {
