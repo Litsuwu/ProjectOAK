@@ -2575,6 +2575,18 @@ focus_tree = {
 				uses = 2
 				bonus = 1 
 			}
+			add_tech_bonus = {
+				name = radar_focus
+				bonus = 1.0
+				uses = 1
+				category = radar_tech
+			}
+			add_tech_bonus = {
+				name = radar_focus
+				bonus = 1.0
+				uses = 1
+				technology = night_fighters1
+			}
 			add_war_support = 0.1
 		}
 	}
