@@ -845,7 +845,9 @@ country_event = {
 		
 	option = {
 		name = britain.42.a
-		    load_oob = "ENG_def_sealion"
+			hidden_effect = {
+				load_oob = "ENG_def_sealion"
+			}		    
 			add_timed_idea = {
 				idea = fight_them_on_the_shores
 				days = 180

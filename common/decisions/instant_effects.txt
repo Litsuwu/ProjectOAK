@@ -131,7 +131,7 @@ PAR_instant_effect_decisions = {
 		cost = 0
 		
 		complete_effect = {
-		   ENG = { country_event = operation.100 }
+		   ENG = { country_event = britain.42 }
 		}
 		ai_will_do = {
 			base = 5000			
