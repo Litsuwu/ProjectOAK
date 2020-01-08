@@ -209,10 +209,6 @@ special_projects = {
 	}
 }
 
-foreign_influence = {
-	picture = GFX_decision_cat_foreign_influence
-}
-
 fascism_on_the_rise = {
 	icon = generic_fascism
 

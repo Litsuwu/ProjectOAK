@@ -2061,8 +2061,7 @@ foreign_politics = {
 		ai_will_do = {
 			factor = 10
 		}
-
-		
+	
 		allowed = {
 		   tag = GER
 		}
@@ -2071,16 +2070,17 @@ foreign_politics = {
 			51 = { is_demilitarized_zone = no }
 			is_puppet = no
 			or = {
-			AND = { has_army_manpower = { size > 749999 } date > 1937.7.1 }
-			date > 1938.4.1
+				AND = { has_army_manpower = { size > 749999 } date > 1937.7.1 }
+				date > 1938.4.1
 		    }
-			OR = { 
-				is_ai = no
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
 				date > 1938.4.1	  
 			}
 			NOT = { has_idea = rhineland_challenge_met }
 		}
-
 
 		days_remove = 70
 
@@ -2207,11 +2207,13 @@ foreign_politics = {
 			owns_state = 4
 			is_puppet = no
 			has_army_manpower = { size > 949999 } #80 div	
-            date > 1938.1.1			
-			OR = { 
-				is_ai = no
-				 date > 1938.9.10	  
-			}
+            date > 1938.1.1	
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
+				date > 1938.9.10 
+			}		
 			NOT = {
 				AND = {
 					CZE = { is_in_faction_with = GER }
@@ -2391,9 +2393,11 @@ foreign_politics = {
 				has_army_manpower = { size > 949999 }
 				date > 1939.3.16
 			}
-			OR = { 
-				is_ai = no
-				date > 1939.3.10	  
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
+				date > 1939.3.10 
 			}
 			NOT = { has_war_with = CZE }
 		}
@@ -2528,16 +2532,14 @@ foreign_politics = {
 		available = {
 			has_army_manpower = { size > 999999 }
 			has_capitulated = no
-			OR = {
-		    	AND = {
-		        	is_ai = no
-		    		date > 1939.6.1
-		    	}
-		    	AND = {
-			    	is_ai = yes
-			    	date > 1939.9.1
-		    	}
-			}		 
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
+				date > 1939.9.1 
+			}
+		    date > 1939.6.1		 
+			has_country_flag = GER_the_end_of_czechoslovakia
 		}
 
 		ai_will_do = {
@@ -2581,10 +2583,12 @@ foreign_politics = {
 				has_war_with = ENG
 				NOT = {country_exists = ENG}
 			}
-			OR = { 
-				is_ai = no
-				 date > 1940.4.1	  
-			}	
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
+				date > 1940.4.1
+			}
 		}
 
 		ai_will_do = {
@@ -2760,10 +2764,12 @@ foreign_politics = {
 				has_war_with = ENG
 				NOT = {country_exists = ENG}
 			}
-			OR = { 
-				is_ai = no
-				 date > 1940.5.15	  
-			}						
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
+				date > 1940.5.15	
+			}					
 		}
 
 		ai_will_do = {
@@ -2843,9 +2849,11 @@ foreign_politics = {
 			NOT = { is_in_faction_with = POL }
 			is_puppet = no
 			has_army_manpower = { size > 949999 } 
-			date > 1939.4.1	 	
-			OR = { 
-				is_ai = no
+			date > 1939.4.1	 
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
 				date > 1939.8.15
 			}				
 			SOV = {
