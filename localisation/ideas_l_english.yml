@@ -3239,13 +3239,14 @@
 
 
 
-    # USA
+ # USA
  phi_capitulated:0 "The Philippines have fallen"
  mal_capitulated:0 "Malaya has fallen"
  raj_capitulated:0 "The Raj has fallen"
  ins_capitulated:0 "The Dutch East Indies have fallen"
  ast_capitulated:0 "Australia has fallen"
  USA_arsenal_of_democracy_idea:0 "Arsenal of Democracy"
+ escort_effort_focus:0 "Escort Effort"
  USA_robert_taft:0 "Robert Taft"
  USA_john_winant:0 "John Winant"
  USA_cordell_hull:0 "Cordell Hull"

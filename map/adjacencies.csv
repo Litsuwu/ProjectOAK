@@ -300,7 +300,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment;;
 12403;7545;impassable;-1;-1;-1;-1;-1;;china;;;;
 12403;828;impassable;-1;-1;-1;-1;-1;;china;;;;
 7158;828;impassable;-1;-1;-1;-1;-1;;china;;;;
-7158;1590;impassable;-1;-1;-1;-1;-1;;china;;;;
 2998;11156;impassable;-1;-1;-1;-1;-1;;Finland;;;;
 2998;6153;impassable;-1;-1;-1;-1;-1;;Finland;;;;
 2998;6210;impassable;-1;-1;-1;-1;-1;;Finland;;;;
