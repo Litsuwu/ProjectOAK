@@ -300,7 +300,14 @@ leader_traits = {
 	yak_command = { 
 		type = land
 		trait_type = personality_trait
-		
+		allowed = {
+			FROM = {
+				tag = TIB
+			}
+		}
+		new_commander_weight = {
+			factor = 0  # Scripted starting leaders only
+		}
 		corps_commander_modifier = {
 			max_commander_army_size = 999
 		}

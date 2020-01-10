@@ -1,8 +1,11 @@
 ai_historical_focus_list_USA = {
 	ai_national_focuses = {
+		USA_neutrality_act
+		USA_support_china
+		USA_finish_the_new_deal
+		USA_guarantee_the_american_dream
 		USA_fair_labour_standards_act
 		USA_cash_and_carry
-		USA_support_china
 		USA_the_giant_wakes
 		USA_arsenal_of_democracy
 		USA_lend_lease_act

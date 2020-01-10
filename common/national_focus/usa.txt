@@ -71,7 +71,9 @@ focus_tree = {
 		bypass = {
 			has_war = yes
 		}
-		
+		ai_will_do = {
+			factor = 100
+		}
 		icon = GFX_goal_generic_consumer_goods
 
 		x = 3
@@ -121,7 +123,11 @@ focus_tree = {
 		cost = 5
 
 		available_if_capitulated = yes
-
+		
+		ai_will_do = {
+			factor = 100
+		}
+	
 		completion_reward = {
 			add_ideas = USA_national_employment_strategy
 		}
@@ -140,6 +146,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_revive_the_auto_industry
 		cost = 7.16
+		
+		ai_will_do = {
+			factor = 100
+		}
 
 		available_if_capitulated = yes
 
@@ -186,6 +196,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_strike_breaking
 		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
 
 		available_if_capitulated = yes
 
@@ -221,7 +235,7 @@ focus_tree = {
 		y = 1
 		cost = 8
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		available = {
 			OR = {
@@ -364,7 +378,7 @@ focus_tree = {
 		y = 3
 		cost = 7.16
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		available_if_capitulated = yes
 		completion_reward = {
@@ -383,7 +397,7 @@ focus_tree = {
 		cost = 7.16
 
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -501,7 +515,7 @@ focus_tree = {
 		y = 1
 		cost = 7.16
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -533,6 +547,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_wpa
 		cost = 7.16
+		
+		ai_will_do = {
+			factor = 100
+		}
 
 		available_if_capitulated = yes
 
@@ -863,6 +881,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_agricultural_adjustment_act
 		cost = 7.16
+		
+		ai_will_do = {
+			factor = 100
+		}
 
 		available_if_capitulated = yes
 
@@ -882,6 +904,10 @@ focus_tree = {
 		cost = 7.16
 
 		available_if_capitulated = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
 
 		completion_reward = {
 			every_state = {
@@ -1332,7 +1358,7 @@ focus_tree = {
 		relative_position_id = USA_federal_housing_act
 		cost = 7.16
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		available_if_capitulated = yes
 		available = {
@@ -1372,7 +1398,7 @@ focus_tree = {
 		y = 2
 		cost = 7.16
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -1475,7 +1501,7 @@ focus_tree = {
 		relative_position_id = USA_neutrality_act
 		cost = 7.16
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -1499,6 +1525,10 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = USA_cash_and_carry
+		
+		ai_will_do = {
+			factor = 100
+		}
 
 		cost = 7.16
 

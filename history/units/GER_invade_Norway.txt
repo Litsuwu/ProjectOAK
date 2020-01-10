@@ -90,7 +90,13 @@ units = {
 	}
 	division = {
 		name = "214. Infantrie-Gruppe"
-		location = 14
+		location = 6115
+		division_template = "Infanterie-Division NOR"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "215. Infantrie-Gruppe"
+		location = 6115
 		division_template = "Infanterie-Division NOR"
 		start_experience_factor = 0.3
 	}

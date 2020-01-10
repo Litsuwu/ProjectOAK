@@ -824,6 +824,10 @@ country_event = {
 	
 	trigger = {
 			tag = JAP
+			OR = {
+				CHI = {is_ai = no }
+				PRC = {is_ai = no }
+			}	
 			if = { 
 				limit = { country_exists = MEN }
 				MEN = { has_capitulated = yes }
@@ -861,7 +865,8 @@ country_event = {
 				}
 			}
 		NOT = { is_in_faction_with = CHI }	
-		NOT = { has_war_with = ENG }	
+		NOT = { has_war_with = ENG }
+				
 	}
 	option = {
 		name = wtt_japan.114.a
