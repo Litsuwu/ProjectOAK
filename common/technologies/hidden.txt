@@ -253,6 +253,10 @@ technologies = {
 			   	infantry_equipment = -10
 				horse_equipment = -5
 			}
+			hard_attack = -0.05
+			soft_attack = -0.05
+			breakthrough = -0.05
+			defense = -0.05
 		}
 	}
 	
