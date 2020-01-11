@@ -621,8 +621,16 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = autarky_2_tt
-			add_ideas = ig_faben
-
+			
+			if = {
+				limit = {
+						AND = {
+							NOT = { has_idea = reichswerke_hermann_goring }
+							NOT = { has_idea = krupp_industrial_concern }
+						}
+					}
+					add_ideas = ig_faben
+			}
 			if = {
 				limit = {
 					has_idea = GER_autarky_idea
@@ -776,8 +784,15 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = autarky_3_tt
-
-			add_ideas = ig_faben_oil
+			if = {
+				limit = {
+						AND = {
+							NOT = { has_idea = reichswerke_hermann_goring }
+							NOT = { has_idea = krupp_industrial_concern }
+						}
+					}
+					add_ideas = ig_faben_oil
+			}
 
 			if = {
 				limit = {
@@ -817,9 +832,16 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = autarky_3_tt
-
-			add_ideas = ig_faben_rubber
-
+			if = {
+				limit = {
+						AND = {
+							NOT = { has_idea = reichswerke_hermann_goring }
+							NOT = { has_idea = krupp_industrial_concern }
+						}
+					}
+					add_ideas = ig_faben_rubber
+			}
+		
 			if = {
 				limit = {
 					has_idea = GER_autarky_idea2
@@ -1612,7 +1634,8 @@ focus_tree = {
 	focus = { ## Its the Green I need, and when I look up in the mountains it is the green that i see #
 		id = GER_swiss_cash
 		icon = GFX_focus_generic_treaty
-		prerequisite = { focus = GER_swedish_steel focus = GER_occupation_of_france }
+		prerequisite = { focus = GER_occupation_of_france }
+		prerequisite = { focus = GER_swedish_steel }
 		relative_position_id = GER_wesereberung
 		x = 0
 		y = 2
