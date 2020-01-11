@@ -612,28 +612,12 @@ on_actions = {
 					tag = FRA	
 					has_war_with = GER 
 				}
-				add_timed_idea = {
-					idea = French_Malaise
-					days = 600
+				FRA = {
+					add_timed_idea = {
+						idea = French_Malaise
+						days = 600
+					}	
 				}				
-			}
-			if = {
-				limit = {
-					OR = {
-						FROM = {
-							tag = GER 
-							has_war_with = SOV
-						}					
-						ROOT = {
-							tag = GER 
-							has_war_with = SOV
-						}
-					}
-				}
-				swap_ideas = {
-					remove_idea = general_staff
-					add_idea = general_staff2
-				}			
 			}
 			
 			if = {
