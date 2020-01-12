@@ -3720,11 +3720,10 @@ focus_tree = {
 		available = { 
 			has_air_experience > 60
 			has_army_experience > 60
-			SPR = { has_war = yes }
 		}
 
 		bypass = {
-		has_global_flag = scw_over
+		
 		}
 
 		cancel {
