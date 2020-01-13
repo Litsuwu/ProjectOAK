@@ -3752,7 +3752,7 @@ focus_tree = {
 
 	focus = { ## SS
 		id = GER_Schutzstaffel_focus
-		icon = GFX_goal_Waffen_SS
+		icon = GFX_GER_Schutzstaffel_focus
 		prerequisite = { focus = GER_Wehrmacht }
 		relative_position_id = GER_Wehrmacht
 		x = -6

@@ -371,10 +371,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/sov_don_river.tga"
 	}
 	spriteType = {
-		name = "GFX_goal_Waffen_SS"
-		texturefile = "gfx/interface/goals/Waffen_SS.dds"
-	}
-	spriteType = {
 		name = "GFX_GER_curtail_steel_barons"
 		texturefile = "gfx/interface/goals/ger/GER_curtail_the_steel_barons2.dds"
 	}
