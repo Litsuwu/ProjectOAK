@@ -624,11 +624,11 @@ country_event = {
 		CHI = {
 			country_event = { id = china.205 }
 		    hidden_effect  = {
-			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 15000 producer = CHI }
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 10000 producer = CHI }
 			add_equipment_to_stockpile = { type = support_equipment_1 amount = 4000 producer = CHI }
-		    add_equipment_to_stockpile = { type = horse_equipment_0 amount = 10000 producer = CHI }
+		    add_equipment_to_stockpile = { type = horse_equipment_0 amount = 6000 producer = CHI }
 		    add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 2000 producer = CHI }
-			add_equipment_to_stockpile = { type = radio_equipment_1 amount = 2500 producer = CHI }
+			add_equipment_to_stockpile = { type = radio_equipment_1 amount = 2000 producer = CHI }
 			load_oob = CHI_20_width
 			}
 		}
@@ -643,26 +643,422 @@ country_event = {
                 white_peace = {
 					tag = PRC 
 				}		
-            transfer_state = 591				
-			transfer_state = 592 
-			transfer_state = 593 
-			transfer_state = 594
-			transfer_state = 595 
-			transfer_state = 596 
-			transfer_state = 597 
-			transfer_state = 598 
-			transfer_state = 599
-			transfer_state = 608 
-			transfer_state = 613 
-			transfer_state = 614 
-			transfer_state = 743 
 			if = { 
-			limit = { PRC = { has_capitulated = yes } }
-			annex_country = { target = PRC }
+				limit = { 
+					OR = {
+						JAP = { controls_state = 591 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 591
+						}
+					} 
+				}
+				transfer_state = 591
+			}	
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 592 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 592
+						}
+					} 
+				}
+				transfer_state = 592
 			}
 			if = { 
-			limit = { PRC = { has_capitulated = no } }
-			diplomatic_relation = { country = PRC relation = non_aggression_pact }
+				limit = { 
+					OR = {
+						JAP = { controls_state = 593 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 593
+						}
+					} 
+				}
+				transfer_state = 593
+			}	
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 594 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 594
+						}
+					} 
+				}
+				transfer_state = 594
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 595 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 595
+						}
+					} 
+				}
+				transfer_state = 595
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 596 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 596
+						}
+					} 
+				}
+				transfer_state = 596
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 597 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 597
+						}
+					} 
+				}
+				transfer_state = 597
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 598 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 598
+						}
+					} 
+				}
+				transfer_state = 598
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 599 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 599
+						}
+					} 
+				}
+				transfer_state = 599
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 608 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 608
+						}
+					} 
+				}
+				transfer_state = 608
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 613 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 613
+						}
+					} 
+				}
+				transfer_state = 613
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 614 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 614
+						}
+					} 
+				}
+				transfer_state = 614
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 743 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 743
+						}
+					} 
+				}
+				transfer_state = 743
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 325 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 325
+						}
+					} 
+				}
+				transfer_state = 325
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 615 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 615
+						}
+					} 
+				}
+				transfer_state = 615
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 621 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 621
+						}
+					} 
+				}
+				transfer_state = 621
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 746 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 746
+						}
+					} 
+				}
+				transfer_state = 746
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 622 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 622
+						}
+					} 
+				}
+				transfer_state = 622
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 756 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 756
+						}
+					} 
+				}
+				transfer_state = 756
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 616 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 616
+						}
+					} 
+				}
+				transfer_state = 616
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 283 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 283
+						}
+					} 
+				}
+				transfer_state = 283
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 753 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 753
+						}
+					} 
+				}
+				transfer_state = 753
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 751 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 751
+						}
+					} 
+				}
+				transfer_state = 751					
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 605 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 605
+						}
+					} 
+				}
+				transfer_state = 605
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 748 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 748
+						}
+					} 
+				}
+				transfer_state = 748
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 744 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 744
+						}
+					} 
+				}
+				transfer_state = 744
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 750 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 750
+						}
+					} 
+				}
+				transfer_state = 750
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 603 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 603
+						}
+					} 
+				}
+				transfer_state = 603
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 620 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 620
+						}
+					} 
+				}
+				transfer_state = 620
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 602 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 602
+						}
+					} 
+				}
+				transfer_state = 602
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 749 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 749
+						}
+					} 
+				}
+				transfer_state = 749
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 600 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 600
+						}
+					} 
+				}
+				transfer_state = 600
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 606 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 606
+						}
+					} 
+				}
+				transfer_state = 606
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 607 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 607
+						}
+					} 
+				}
+				transfer_state = 607
+			}
+
+			if = { 
+				limit = { PRC = { has_capitulated = yes } }
+				annex_country = { target = PRC }
+			}
+			if = { 
+				limit = { PRC = { has_capitulated = no } }
+				diplomatic_relation = { country = PRC relation = non_aggression_pact }
 			}
 			diplomatic_relation = { country = CHI relation = non_aggression_pact }					
 		}
