@@ -152,7 +152,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_freedom_to_the_steel_barons
-		icon = GOAL_unknown 
+		icon = GFX_GER_freedom_to_the_steel_barons 
 		relative_position_id = GER_continue_the_new_plan
 		prerequisite = { focus = GER_continue_the_new_plan }
 
@@ -179,7 +179,7 @@ focus_tree = {
 	focus = {
 		id = GER_mefo_loans_for_resources
 		relative_position_id = GER_continue_the_new_plan
-		icon = GOAL_unknown 
+		icon = GFX_GER_mefo_loans_for_resources 
 		prerequisite = { focus = GER_freedom_to_the_steel_barons }
 		x = 0
 		y = 2
@@ -267,7 +267,7 @@ focus_tree = {
 	focus = {
 		id = GER_prevent_rheinmetall_merger
 		relative_position_id = GER_continue_the_new_plan
-		icon = GOAL_unknown 
+		icon = GFX_GER_prevent_rheinmetall_merger 
 		prerequisite = { focus = GER_mefo_loans_for_resources }
 		x = 1
 		y = 3
@@ -330,7 +330,7 @@ focus_tree = {
 	focus = {
 		id = GER_new_subsidiaries
 		relative_position_id = GER_continue_the_new_plan
-		icon = GOAL_unknown 
+		icon = GFX_GER_new_subsidiaries 
 		prerequisite = { focus = GER_prevent_rheinmetall_merger }
 		x = 1
 		y = 4
@@ -417,7 +417,7 @@ focus_tree = {
 	focus = {
 		id = GER_private_military_industrial_complex
 		relative_position_id = GER_continue_the_new_plan
-		icon = GOAL_unknown 
+		icon = GFX_GER_private_military_industrial_complex 
 		prerequisite = { focus = GER_resource_rationing }
 		prerequisite = { focus = GER_new_subsidiaries }
 		x = 0
@@ -442,7 +442,7 @@ focus_tree = {
 	focus = {
 		id = GER_the_steel_most_flow
 		relative_position_id = GER_continue_the_new_plan
-		icon = GOAL_unknown 
+		icon = GFX_GER_the_steel_most_flow 
 		prerequisite = { focus = GER_mefo_loans_for_resources }
 		x = -1
 		y = 3
@@ -475,7 +475,7 @@ focus_tree = {
 	focus = {
 		id = GER_resource_rationing
 		relative_position_id = GER_continue_the_new_plan
-		icon = GOAL_unknown 
+		icon = GFX_GER_resource_rationing 
 		prerequisite = { focus = GER_the_steel_most_flow }
 		x = -1
 		y = 4
@@ -982,7 +982,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_absorb_rheinmetall
-		icon = GOAL_unknown
+		icon = GFX_GER_absorb_rheinmetall
 		prerequisite = { focus = GER_hermann_goring_werke }
 		relative_position_id = GER_hermann_goring_werke
 		x = -1
@@ -1090,7 +1090,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_the_states_military_industrial_complex
-		icon = GFX_focus_unknown
+		icon = GFX_GER_the_states_military_industrial_complex
 		prerequisite = { focus = GER_seize_private_iron_ore }
 		prerequisite = { focus = GER_expand_the_reichswerke }
 
@@ -1277,7 +1277,7 @@ focus_tree = {
 	focus = {
 		id = GER_krupp_in_charge
 		prerequisite = { focus = GER_hermann_goring_werke }
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_GER_krupp_in_charge
 		relative_position_id = GER_curtail_the_steel_barons
 		x = 1
 		y = 2
@@ -1327,7 +1327,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_expand_the_reichswerke
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = GER_krupp_in_charge }
 		relative_position_id = GER_curtail_the_steel_barons
 		x = 1
@@ -1410,7 +1410,7 @@ focus_tree = {
 
 	focus = { # mobilize the reich #
 		id = GER_mobilize_the_reich
-		icon = GFX_goal_unknown
+		icon = GFX_GER_mobilize_the_reich
 		prerequisite = { focus = GER_expand_the_reichswerke focus = GER_seize_private_iron_ore focus = GER_new_subsidiaries focus = GER_resource_rationing }
 		prerequisite = { focus = ig_faben_rubber focus = ig_faben_oil }
 
@@ -1603,7 +1603,7 @@ focus_tree = {
 
 	focus = { #NÄR DU SER FIENDEN I VITÖGAT, GE DOM SVENSKT STÅL!# 
 		id = GER_swedish_steel
-		icon = GFX_goal_generic_intelligence_exchange
+		icon = GFX_GER_swedish_steel
 		prerequisite = { focus = GER_wesereberung }
 		relative_position_id = GER_wesereberung
 		x = 1
@@ -1633,7 +1633,7 @@ focus_tree = {
 
 	focus = { ## Its the Green I need, and when I look up in the mountains it is the green that i see #
 		id = GER_swiss_cash
-		icon = GFX_focus_generic_treaty
+		icon = GFX_GER_swiss_cash
 		prerequisite = { focus = GER_occupation_of_france }
 		prerequisite = { focus = GER_swedish_steel }
 		relative_position_id = GER_wesereberung
@@ -1790,7 +1790,7 @@ focus_tree = {
 
 	focus = { #seize chemicals #
 		id = ig_faben_seize_chemicals
-		icon = GFX_goal_generic_scientific_exchange
+		icon = GFX_ig_faben_seize_chemicals
 		prerequisite = { focus = GER_occupation_of_the_benelux }
 		relative_position_id = GER_occupation_of_the_benelux
 		x = -1
@@ -1885,7 +1885,7 @@ focus_tree = {
 
 	focus = { # wes knowledge#
 		id = GER_western_knowledge
-		icon = GFX_focus_research2
+		icon = GFX_GER_western_knowledge
 		relative_position_id = ig_faben_seize_chemicals
 		prerequisite = { focus = ig_faben_seize_chemicals }
 		prerequisite = { focus = GER_occupation_of_france }
@@ -2062,7 +2062,7 @@ focus_tree = {
 
 	focus = { #Collab Government Western Organization kinda##
 		id = GER_exploit_the_east
-		icon = GFX_GER_establish_collaborationist_government
+		icon = GFX_GER_exploit_the_east
 		prerequisite = { focus = GER_mobilize_the_reich }
 		relative_position_id = GER_mobilize_the_reich
 		x = -4
@@ -2427,7 +2427,7 @@ focus_tree = {
 
 	focus = { #Trade Route to Turkey##
 		id = GER_trade_route_to_turkey
-		icon = GFX_GER_establish_collaborationist_government
+		icon = GFX_GER_trade_route_to_turkey
 		prerequisite = { focus = GER_establish_the_occupational_zones_in_yugoslavia }
 		relative_position_id = GER_establish_the_occupational_zones_in_yugoslavia
 		x = 0
@@ -2493,7 +2493,7 @@ focus_tree = {
 
 	focus = { ##beginning of forced labour# 
 		id = GER_arbeitseinsatz
-		icon = GFX_GER_seize_hellas
+		icon = GFX_GER_arbeitseinsatz
 		prerequisite = { focus = GER_trade_route_to_turkey }
 		prerequisite = { focus = GER_plunder_their_economy }
 		relative_position_id = GER_exploit_the_east
@@ -2511,7 +2511,7 @@ focus_tree = {
 
 	focus = { ## Ger Industry ## 
 		id = GER_disperse_industry
-		icon = GFX_focus_generic_industry_2
+		icon = GFX_GER_disperse_industry
 		relative_position_id = GER_mobilize_the_reich
 		available = {
 			has_tech = dispersed_industry
@@ -2545,7 +2545,7 @@ focus_tree = {
 
 	focus = { #air shield # 
 		id = GER_air_shield
-		icon = GFX_focus_generic_air_defense
+		icon = GFX_GER_air_shield
 		relative_position_id = GER_mobilize_the_reich
 		prerequisite = { focus = GER_mobilize_the_reich }
 		available = {
@@ -2574,7 +2574,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_trust_in_the_luftwaffe
-		icon = GFX_focus_generic_air_defense
+		icon = GFX_GER_trust_in_the_luftwaffe
 		relative_position_id = GER_mobilize_the_reich
 		prerequisite = { focus = GER_mobilize_the_reich }
 		available = {
@@ -2617,7 +2617,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_implement_rationing 
-		icon = GFX_focus_generic_air_defense
+		icon = GFX_GER_implement_rationing
 		relative_position_id = GER_mobilize_the_reich
 		prerequisite = { focus = GER_air_shield focus = GER_trust_in_the_luftwaffe focus = GER_disperse_industry }
 
@@ -2642,7 +2642,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_women_in_the_workforce
-		icon = GFX_focus_generic_air_defense
+		icon = GFX_GER_women_in_the_workforce
 		relative_position_id = GER_mobilize_the_reich
 		prerequisite = { focus = GER_implement_rationing }
 		available = {
@@ -2664,7 +2664,7 @@ focus_tree = {
 
 	focus = { ##Consolidate Production Lines ##
 		id = GER_consolidate_production_lines 
-		icon = GFX_goal_generic_construction2
+		icon = GFX_GER_consolidate_production_lines
 		prerequisite = { focus = GER_women_in_the_workforce }
 		mutually_exclusive = { focus = GER_specialization_of_worker_skills }
 		relative_position_id = GER_mobilize_the_reich
@@ -2699,7 +2699,7 @@ focus_tree = {
 
 	focus = { ##Spec worker skilz#
 		id = GER_specialization_of_worker_skills
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_GER_specialization_of_worker_skills
 		prerequisite = { focus = GER_women_in_the_workforce }
 		mutually_exclusive = { focus = GER_consolidate_production_lines }
 		relative_position_id = GER_mobilize_the_reich
@@ -2734,7 +2734,7 @@ focus_tree = {
 
 	focus = { #Fritz ist Tot# 
 		id = GER_summon_fritz_todt
-		icon = GFX_goal_generic_construction
+		icon = GFX_GER_summon_fritz_todt
 		prerequisite = { focus = GER_consolidate_production_lines focus = GER_specialization_of_worker_skills }
 		prerequisite = { focus = GER_arbeitseinsatz }
 		prerequisite = { focus = GER_swiss_cash }
@@ -2793,7 +2793,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_total_war
-		icon = GFX_focus_ger_reichskommisariats
+		icon = GFX_GER_total_war
 		prerequisite = { focus = GER_summon_fritz_todt }
 		relative_position_id = GER_summon_fritz_todt
 		x = 0
@@ -2820,7 +2820,7 @@ focus_tree = {
 
 	focus = { # Off-Map Factories
 		id = GER_underground_factories
-		icon = GFX_focus_generic_industry_2
+		icon = GFX_GER_underground_factories
 		prerequisite = { focus = GER_summon_fritz_todt }
 		relative_position_id = GER_summon_fritz_todt
 		x = 2
@@ -2883,7 +2883,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_achtung_panzer
-		icon = GFX_goal_ger_heer
+		icon = GFX_GER_achtung_panzer
 		relative_position_id = GER_Wehrmacht
 		prerequisite = { focus = GER_Wehrmacht }
 		x = 0
@@ -2915,7 +2915,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_infanterie_tactics			
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_GER_infanterie_tactics
 		relative_position_id = GER_achtung_panzer
 		prerequisite = { focus = GER_achtung_panzer }
 		x = 3
@@ -2942,7 +2942,7 @@ focus_tree = {
 	focus = {
 		id = GER_armor_design_competition
 		prerequisite = { focus = GER_achtung_panzer }
-		icon = GFX_focus_ger_armour_investment
+		icon = GFX_GER_armor_design_competition
 		relative_position_id = GER_achtung_panzer
 		x = 0
 		y = 1 
@@ -2994,7 +2994,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_hanomag			
-		icon = GFX_goal_generic_army_motorized
+		icon = GFX_GER_hanomag
 		prerequisite = { focus = GER_achtung_panzer }
 		relative_position_id = GER_achtung_panzer
 		x = -3
@@ -3017,7 +3017,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_artillery_expansion 			
-		icon = GFX_goal_generic_army_artillery
+		icon = GFX_GER_artillery_expansion
 		prerequisite = { focus = GER_armor_design_competition focus = GER_infanterie_tactics }
 		relative_position_id = GER_achtung_panzer
 		x = 2
@@ -3051,7 +3051,7 @@ focus_tree = {
 	focus = {
 		id = GER_support_tanks
 		text = GER_support_tanks
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_GER_support_tanks
 		prerequisite = { focus = GER_armor_design_competition focus = GER_hanomag }
 		relative_position_id = GER_achtung_panzer
 		x = -2
@@ -3081,7 +3081,7 @@ focus_tree = {
 	focus = {
 		id = GER_kampfgruppes		
 		text = GER_kampfgruppes
-		icon = GFX_focus_generic_combined_arms
+		icon = GFX_GER_kampfgruppes
 		relative_position_id = GER_achtung_panzer
 		prerequisite = { focus = GER_hanomag }
 		prerequisite = { focus = GER_armor_design_competition }
@@ -3150,7 +3150,7 @@ focus_tree = {
 	
 	focus = { 
 		id = GER_festung_principle
-		icon = GFX_GER_fortress_strategy
+		icon = GFX_GER_festung_principle
 		prerequisite = { focus = GER_the_winter_of_1941 }
 		mutually_exclusive = { focus = GER_offense_is_the_best_defense }
 		relative_position_id = GER_the_winter_of_1941
@@ -3185,7 +3185,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = GER_mobile_fortresses
-		icon = GFX_GER_heavy_tiger_cats
+		icon = GFX_GER_mobile_fortresses
 		prerequisite = { focus = GER_festung_principle }
 		relative_position_id = GER_festung_principle
 		x = 1
@@ -3252,7 +3252,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_new_weapons
-		icon = GFX_GER_award_heroes
+		icon = GFX_GER_new_weapons
 		prerequisite = { focus = GER_grenadiers_never_retreat }
 		relative_position_id = GER_festung_principle
 		x = -1
@@ -3277,7 +3277,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_ambush_tactics
-		icon = GFX_GER_award_heroes
+		icon = GFX_GER_ambush_tactics
 		prerequisite = { focus = GER_mobile_fortresses }
 		relative_position_id = GER_mobile_fortresses
 		x = 0
@@ -3484,7 +3484,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = GER_modern_grenadiers
-		icon = GFX_GER_endless_offensives
+		icon = GFX_GER_modern_grenadiers
 		prerequisite = { focus = GER_offense_is_the_best_defense }
 		relative_position_id = GER_the_winter_of_1941
 		x = 3
@@ -3515,7 +3515,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_division_support_structure
-		icon = GFX_GER_endless_offensives
+		icon = GFX_GER_division_support_structure
 		prerequisite = { focus = GER_modern_grenadiers }
 		relative_position_id = GER_the_winter_of_1941
 		x = 3
@@ -3545,7 +3545,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_the_final_crusade
-		icon = GOAL_unknown
+		icon = GFX_GER_the_final_crusade
 		prerequisite = { focus = GER_new_weapons focus = GER_division_support_structure  } 
 		prerequisite = { focus = GER_endless_offensives focus = GER_ambush_tactics }
 		relative_position_id = GER_the_winter_of_1941
@@ -3584,7 +3584,7 @@ focus_tree = {
 
 	focus = { ## SCW
 		id = GER_Feuerzauber
-		icon = GFX_focus_ger_goal_military_mission
+		icon = GFX_GER_Feuerzauber
 		prerequisite = { focus = GER_Wehrmacht } 
 		relative_position_id = GER_Wehrmacht
 		x = 6
@@ -3614,7 +3614,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_BREAK_THE_REDS
-		icon = GFX_focus_ger_crush_the_reds
+		icon = GFX_GER_BREAK_THE_REDS
 		prerequisite = { focus = GER_Feuerzauber }
 		relative_position_id = GER_Feuerzauber
 		x = -1
@@ -3667,7 +3667,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Legion_Condor
-		icon = GFX_focus_ger_goal_air_2
+		icon = GFX_GER_Legion_Condor
 		prerequisite = { focus = GER_Feuerzauber } 
 		relative_position_id = GER_Feuerzauber
 		x = 1
@@ -3706,7 +3706,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_lessons_of_the_civil_war
-		icon = GFX_focus_ger_wargames
+		icon = GFX_GER_lessons_of_the_civil_war
 		prerequisite = { focus = GER_Legion_Condor focus = GER_BREAK_THE_REDS }
 		relative_position_id = GER_Feuerzauber
 		x = 0
@@ -3797,7 +3797,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_hitler_jugend
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_GER_hitler_jugend
 		prerequisite = { focus = GER_Schutzstaffel_focus }
 		relative_position_id = GER_Schutzstaffel_focus
 		x = 0
@@ -3829,7 +3829,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_SS_armed_branch
-		icon = GFX_idea_generic_secret_police
+		icon = GFX_GER_SS_armed_branch
 		prerequisite = { focus = GER_hitler_jugend }
 		relative_position_id = GER_hitler_jugend
 		x = 0
@@ -3912,7 +3912,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_SS_restrict_recruitment
-		icon = GFX_idea_general_staff
+		icon = GFX_GER_SS_restrict_recruitment
 		prerequisite = { focus = GER_SS_armed_branch }
 		mutually_exclusive = { focus = GER_SS_recruit_everywhere }
 		relative_position_id = GER_SS_armed_branch
@@ -3937,7 +3937,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_SS_recruit_everywhere
-		icon = GFX_idea_general_staff
+		icon = GFX_GER_SS_recruit_everywhere
 		prerequisite = { focus = GER_SS_armed_branch }
 		mutually_exclusive = { focus = GER_SS_restrict_recruitment }
 		relative_position_id = GER_SS_armed_branch
@@ -4029,7 +4029,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_udets_strike_force
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_GER_udets_strike_force
 		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_victory_through_airpower }
 		relative_position_id = GER_air_innovation 
@@ -4057,7 +4057,7 @@ focus_tree = {
 
 	focus = { 
 		id = GER_Fast_Bomber
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_GER_Fast_Bomber
 		prerequisite = { focus = GER_udets_strike_force }
 		relative_position_id = GER_air_innovation 
 		x = -2
@@ -4085,7 +4085,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_junkers_CAS
-		icon = GFX_SOV_cas_designer
+		icon = GFX_GER_junkers_CAS
 		cost = 5.00
 		prerequisite = {
 			focus = GER_udets_strike_force
@@ -4109,7 +4109,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_CAS_doctrine
-		icon = GFX_SOV_air_to_ground_exercises
+		icon = GFX_GER_CAS_doctrine
 		cost = 5.00
 		prerequisite = {
 			focus = GER_junkers_CAS
@@ -4139,7 +4139,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_victory_through_airpower
-		icon = GFX_focus_CZE_military_aeronautical_institute
+		icon = GFX_GER_victory_through_airpower
 		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_udets_strike_force }
 		relative_position_id = GER_air_innovation 
@@ -4160,7 +4160,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Ural_Bomber
-		icon = GFX_goal_poland_goal
+		icon = GFX_GER_Ural_Bomber
 		prerequisite = { focus = GER_victory_through_airpower }
 		mutually_exclusive = { focus = GER_Fast_Bomber }
 		relative_position_id = GER_air_innovation 
@@ -4189,7 +4189,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_long_range_escorts
-		icon = GFX_focus_usa_escort_fighters
+		icon = GFX_GER_long_range_escorts
 		prerequisite = { focus = GER_victory_through_airpower }		
 		cost = 5.00
 		prerequisite = {
@@ -4215,7 +4215,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_strategic_bombing_doctrine
-		icon = GFX_SOV_strat_bomber_doctrine
+		icon = GFX_GER_strategic_bombing_doctrine
 		cost = 5.00
 		prerequisite = {
 			focus = GER_Ural_Bomber
@@ -4267,7 +4267,7 @@ focus_tree = {
 	focus = {
 		id = GER_paratroopers
 		text = GER_paratroopers
-		icon = GFX_focus_generic_paratrooper
+		icon = GFX_GER_paratroopers
 		prerequisite = { focus = GER_scrap_lufthansa }
 		relative_position_id = GER_scrap_lufthansa 
 		x = 0
@@ -4297,7 +4297,7 @@ focus_tree = {
 	focus = {
 		id = GER_invest_aircraft
 		prerequisite = { focus = GER_udets_strike_force focus = GER_victory_through_airpower }
-		icon = GFX_goal_bf_luftwaffe
+		icon = GFX_GER_invest_aircraft
 		relative_position_id = GER_air_innovation
 		x = 0
 		y = 2
@@ -4371,7 +4371,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_air_innovation_2
-		icon = GFX_focus_ger_goal_air
+		icon = GFX_GER_air_innovation_2
 		prerequisite = { focus = GER_modern_cas focus = GER_modern_fighter }
 		relative_position_id = GER_invest_aircraft
 		x = 0

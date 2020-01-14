@@ -77,11 +77,6 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_GER_mobilize_the_reich"
-		texturefile = "gfx/interface/goals/ger/GER_mobilize_the_reich.dds"
-	}	
-
-	spriteType = {
 		name = "GFX_GER_summon_fritz_todt"
 		texturefile = "gfx/interface/goals/ger/GER_summon_fritz_todt.dds"
 	}	
