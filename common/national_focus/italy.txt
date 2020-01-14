@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_ethiopian_war_logistics
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_ITA_ethiopian_war_logistics
 		x = 14
 		y = 0
 		cost = 8
@@ -68,7 +68,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_learn_from_the_ethiopian_war
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_ITA_learn_from_the_ethiopian_war
 		prerequisite = { focus = ITA_ethiopian_war_logistics }
 		mutually_exclusive = { focus = ITA_victory_by_any_means }
 		x = 13
@@ -108,7 +108,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_victory_by_any_means
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_ITA_victory_by_any_means
 		prerequisite = { focus = ITA_ethiopian_war_logistics }
 		mutually_exclusive = { focus = ITA_learn_from_the_ethiopian_war }
 		x = 15
@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_regia_marina
-		icon = GFX_goal_generic_build_navy
+		icon = GFX_ITA_regia_marina
 		prerequisite = { focus = ITA_victoryinETH }		
 		x = 1
 		y = 3
@@ -287,7 +287,7 @@ focus_tree = {
 		y = 2
 		cost = 8
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}	
 		available_if_capitulated = yes
 		completion_reward = {
@@ -379,7 +379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_Mare_Nostrum 
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_ITA_Mare_Nostrum
 		prerequisite = { focus = ITA_Escape_the_cage }
 		prerequisite = { focus = ITA_X_Flottiglia_MAS }
 		x = 1
@@ -497,7 +497,7 @@ focus_tree = {
 	
 	focus = {
 		id = ITA_Regia_Aeronautica
-		icon = GFX_focus_CZE_military_aeronautical_institute
+		icon = GFX_ITA_Regia_Aeronautica
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 7
 		y = 3
@@ -731,7 +731,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_Regio_Esercito
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_ITA_Regio_Esercito
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 14
 		y = 3
