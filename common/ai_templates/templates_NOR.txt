@@ -1,7 +1,7 @@
-infantry_FIN = {
+infantry_NOR = {
 
 	available_for = {
-		FIN
+		NOR
 	}
 
 	roles = {
@@ -18,7 +18,7 @@ infantry_FIN = {
 
 	match_to_count = 0.50
 	
-	infantry_default_FIN = {
+	infantry_default_NOR = {
 	
 		upgrade_prio = {
 			factor = 2
