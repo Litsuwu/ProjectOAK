@@ -910,6 +910,54 @@ country_event = {
 			if = { 
 				limit = { 
 					OR = {
+						JAP = { controls_state = 754 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 754
+						}
+					} 
+				}
+				transfer_state = 754
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 747 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 747
+						}
+					} 
+				}
+				transfer_state = 747
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 601 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 601
+						}
+					} 
+				}
+				transfer_state = 601
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 604 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 604
+						}
+					} 
+				}
+				transfer_state = 604
+			}
+			if = { 
+				limit = { 
+					OR = {
 						JAP = { controls_state = 751 }
 						any_other_country = {
 							is_in_faction_with = JAP
@@ -1050,6 +1098,18 @@ country_event = {
 					} 
 				}
 				transfer_state = 607
+			}
+			if = { 
+				limit = { 
+					OR = {
+						JAP = { controls_state = 752 }
+						any_other_country = {
+							is_in_faction_with = JAP
+							controls_state = 752
+						}
+					} 
+				}
+				transfer_state = 752
 			}
 
 			if = { 
