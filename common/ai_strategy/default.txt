@@ -15,6 +15,31 @@
 # contain
 # area_priority
 
+default_wants_civ = {
+	enable = {
+		date > 1936.1.1
+	}
+	abort = {
+		date > 1938.2.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+default_wants_mils = {
+	enable = {
+		date > 1938.2.2
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 35
+	}
+}
+
 ignore_neutrals_and_shitty_countries_raj = {
 	enable = {
 		tag = RAJ

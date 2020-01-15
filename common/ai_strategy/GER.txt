@@ -60,10 +60,6 @@ GER_unit_production = {
     ai_strategy = { type = equipment_production_min_factories id = anti_air		value = 1		}
     ai_strategy = { type = equipment_production_min_factories id = anti_tank	value = 1		}
 
-	ai_strategy = {
-		type = added_military_to_civilian_factory_ratio
-		value = 100
-	}
 }
 
 GER_armored_production = {
@@ -98,10 +94,50 @@ GER_highered_armored_production = {
 		value = 10
 	}
 }
+GER_wants_civ = {
+	enable = {
+		tag = GER
+		has_government = fascism
+		has_war = no
+	}
+	abort = {
+		date > 1936.9.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+GER_wants_mils = {
+	enable = {
+		tag = GER
+		has_government = fascism
+		date > 1936.9.2
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 25
+	}
+}
+GER_my_boy_speer = {
+	enable = {
+		tag = GER
+		has_government = fascism
+		date > 1942.1.1
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 200
+	}
+}
 
 GER_autobahn = {
 	enable = {
-		original_tag = CHI
+		original_tag = GER
 	}
 
 	abort = {
@@ -1064,14 +1100,13 @@ GER_wants_synth = {
 	enable = {
 		tag = GER
 		has_government = fascism
-		date > 1937.10.20
-		has_war = no
+		date > 1937.1.1
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = building_target
 		id = synthetic_refinery
-		value = 8
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
