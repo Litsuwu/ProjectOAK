@@ -64,6 +64,7 @@ technology_categories = {
 	computing_tech
 	radar_tech
 	infantry_tech
+	special_tech
 	marine_tech
 	mountaineers_tech
 	construction_tech

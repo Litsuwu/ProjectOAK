@@ -73,7 +73,7 @@ ideas = {
         	picture = generic_manpower_bonus
 
         	research_bonus = {
-        		special_forces = 0.2
+        		special_tech = 0.15
         	}
 
         	modifier = {

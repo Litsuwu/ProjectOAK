@@ -1272,6 +1272,7 @@
  computing_tech:0 "Computing technology"
  radar_tech:0 "RADAR technology"
  infantry_tech:0 "Infantry technology"
+ special_tech:0 "Special Forces technology"
  support_tech:0 "Support technology"
  marine_tech:0 "Marine technology"
  construction_tech:0 "Construction technology"
