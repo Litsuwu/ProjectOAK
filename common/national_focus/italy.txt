@@ -17,7 +17,7 @@ focus_tree = {
 		icon = GFX_ITA_ethiopian_war_logistics
 		x = 14
 		y = 0
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -73,7 +73,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_victory_by_any_means }
 		x = 13
 		y = 1
-		cost = 3
+		cost = 2.9
 		ai_will_do = {
 			factor = 5
 		}
@@ -113,7 +113,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_learn_from_the_ethiopian_war }
 		x = 15
 		y = 1
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 100
 		}
@@ -152,7 +152,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		x = 14
 		y = 2
-		cost = 1
+		cost = 1.5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -174,7 +174,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_victoryinETH }		
 		x = 1
 		y = 3
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 5
 		}	
@@ -259,7 +259,7 @@ focus_tree = {
 		relative_position_id = ITA_regia_marina
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 1
 		}	
@@ -285,7 +285,7 @@ focus_tree = {
 		relative_position_id = ITA_regia_marina
 		x = 0
 		y = 2
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}	
@@ -307,7 +307,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_modern_cruisers }
 		x = -1
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -333,7 +333,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_modern_cruisers }
 		x = 3
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -362,7 +362,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_modern_cruisers }
 		x = 1
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -443,7 +443,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Regia_Aeronautica }
 		x = 4
 		y = 4
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -467,7 +467,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Modern_naval_bomber_effort }
 		x = 4
 		y = 5
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -501,7 +501,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 7
 		y = 3
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -532,7 +532,7 @@ focus_tree = {
 		relative_position_id = ITA_Regia_Aeronautica
 		x = 1
 		y = 1
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -559,7 +559,7 @@ focus_tree = {
 		relative_position_id = ITA_Regia_Aeronautica
 		x = 1
 		y = 2
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -584,7 +584,7 @@ focus_tree = {
 		relative_position_id = ITA_Regia_Aeronautica
 		x = -1
 		y = 1
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -612,7 +612,7 @@ focus_tree = {
 		relative_position_id = ITA_Regia_Aeronautica
 		x = -1
 		y = 2
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -635,7 +635,7 @@ focus_tree = {
 		relative_position_id = ITA_Regia_Aeronautica
 		x = 0
 		y = 3
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -662,7 +662,7 @@ focus_tree = {
 		relative_position_id = ITA_Regia_Aeronautica
 		x = 2
 		y = 4
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -685,7 +685,7 @@ focus_tree = {
 		relative_position_id = ITA_Regia_Aeronautica
 		x = 0
 		y = 4
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -708,7 +708,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Learn_from_the_Luftwaffe }
 		x = 5
 		y = 7
-		cost = 8
+		cost = 7.15
 		ai_will_do = {
 			factor = 10
 		}
@@ -735,7 +735,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 14
 		y = 3
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -770,7 +770,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Regio_Esercito }
 		x = 11
 		y = 4
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -794,7 +794,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Artillery_Modernisation }
 		x = 11
 		y = 5
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -817,7 +817,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Convert_WW1_Weapons_and_equipment }
 		x = 11
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -849,7 +849,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Regio_Esercito }
 		x = 13
 		y = 4
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -879,7 +879,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Alpini }
 		x = 13
 		y = 5
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -900,7 +900,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_ARMIR }
 		x = 13
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -979,7 +979,7 @@ focus_tree = {
 		x = 12
 		y = 8
 
-		cost = 3
+		cost = 2.9
 
 		ai_will_do = {
 			factor = 30
@@ -1009,7 +1009,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_Innovative_theories }
 		x = 15
 		y = 4
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 100
 		}
@@ -1037,7 +1037,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_The_Old_guard }
 		x = 15
 		y = 5
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -1062,7 +1062,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Legacy_of_the_Arditi }
 		x = 15
 		y = 6
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -1119,7 +1119,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Heavy_Infantry_Division }
 		x = 15
 		y = 7
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -1146,7 +1146,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_AVANTI }
 		x = 15
 		y = 8
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1209,7 +1209,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Innovative_theories }
 		x = 17
 		y = 5
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -1235,7 +1235,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Appoint_Messe }
 		x = 17
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1288,7 +1288,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Appoint_Messe }
 		x = 19
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1310,7 +1310,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 25 
 		y = 3
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1332,7 +1332,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 21
 		y = 3
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 1
 		}	
@@ -1547,7 +1547,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_Increase_factory_output }
 		x = 22
 		y = 7
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1577,7 +1577,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Dockyards_effort }
 		x = 22
 		y = 8
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1609,7 +1609,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Modern_Celere_Divisions }
 		x = 17
 		y = 7
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1637,7 +1637,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Armor_Effort }
 		x = 17
 		y = 8
-		cost = 9
+		cost = 8.7
 		ai_will_do = {
 			factor = 10
 		}
@@ -1694,7 +1694,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Italian_tank_divisions focus = ITA_6_Million_Bayonets }
 		x = 16
 		y = 9
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -1718,7 +1718,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_Dockyards_effort }
 		x = 20
 		y = 7
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1747,7 +1747,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Increase_factory_output }
 		x = 20 
 		y = 8 
-		cost = 8
+		cost = 7.9
 		available = { has_war = yes }
 	
 		
@@ -1769,7 +1769,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Autarchia }
 		x = 26
 		y = 4
-		cost = 2
+		cost = 2.15
 		ai_will_do = {
 			factor = 10
 		}
@@ -1803,7 +1803,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Exploit_the_new_empire }
 		x = 26
 		y = 5
-		cost = 4
+		cost = 4.35
 		ai_will_do = {
 			factor = 10
 		}
@@ -1848,7 +1848,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_spirito_fascista }
 		x = 26
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1876,7 +1876,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_immigration_ethiopia }
 		x = 26
 		y = 7
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -1904,7 +1904,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Autarchia }
 		x = 24
 		y = 4
-		cost = 2
+		cost = 2.2
 		ai_will_do = {
 			factor = 10
 		}
@@ -1926,7 +1926,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_appoint_balbo }
 		x = 24
 		y = 5
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -1953,7 +1953,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Pursue_oil_autarchy }
 		x = 24
 		y = 6
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 1
 		}	
@@ -2062,7 +2062,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_empire_of_work }
 		x = 25
 		y = 8
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -2232,7 +2232,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 29
 		y = 3
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -2258,7 +2258,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Minculpop }
 		x = 29
 		y = 4
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -2282,7 +2282,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_pact_of_steel }
 		x = 30
 		y = 5
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 50
 		}
@@ -2308,7 +2308,7 @@ focus_tree = {
 		
 		x = 28
 		y = 8
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 10
 		}	
@@ -2323,7 +2323,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_victoryinETH }
 		x = 31
 		y = 3
-		cost = 2
+		cost = 2.2
 		ai_will_do = {
 			factor = 10
 		}
@@ -2366,7 +2366,7 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
-		cost = 2
+		cost = 2.2
 		ai_will_do = {
 			factor = 100
 
@@ -2415,7 +2415,7 @@ focus_tree = {
 		prerequisite = {  focus = ITA_trains_on_time }
 		x = 30
 		y = 6
-		cost = 2
+		cost = 2.2
 		ai_will_do = {
 			factor = 100
 		}
@@ -2472,7 +2472,7 @@ focus_tree = {
 		}
 		x = 32
 		y = 7
-		cost = 2
+		cost = 2.2
 		ai_will_do = {
 			factor = 10
 		}	
@@ -2575,7 +2575,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_join_the_axis }
 		x = 30
 		y = 7
-		cost = 3
+		cost = 2.9
 		ai_will_do = {
 			factor = 10
 		}
@@ -2596,7 +2596,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_police }
 		x = 30
 		y = 8
-		cost = 6
+		cost = 5.8
 		ai_will_do = {
 			factor = 10
 		}
@@ -2644,7 +2644,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_join_the_axis }
 		x = 28
 		y = 7
-		cost = 9
+		cost = 8.7
 		ai_will_do = {
 			factor = 1
 		}
@@ -2659,7 +2659,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_german_millitary_cooperation }
 		x = 28
 		y = 9
-		cost = 8
+		cost = 7.9
 		ai_will_do = {
 			factor = 1
 		}

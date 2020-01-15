@@ -136,7 +136,7 @@ buildings = {
 				
 		#max_level = 1
 		shares_slots = yes
-		value = 5
+		value = 1
 		infrastructure_construction_effect = yes
 		fuel_silo = yes
 		
