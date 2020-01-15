@@ -130,6 +130,7 @@
  light_air_research:2 "Light Aircraft Research Speed"
  medium_air_research:2 "Medium Aircraft Research Speed"
  heavy_air_research:2 "Heavy Aircraft Research Speed"
+ special_tech_research:0 "Special Forces Research Speed"
  armor_research:2 "Armor Research Speed"
  artillery_research:2 "Artillery Research Speed"
  naval_air_research:2 "Naval Aircraft Research Speed"
