@@ -2622,7 +2622,12 @@ focus_tree = {
 		prerequisite = { focus = GER_air_shield focus = GER_trust_in_the_luftwaffe focus = GER_disperse_industry }
 
 		available = {
-			has_political_power > 99  
+			if = {
+				limit = {
+					GER = {	is_ai = no }
+				}
+				has_political_power > 99  
+			}			
 			has_war = yes
 		}
 		cancel_if_invalid = yes 

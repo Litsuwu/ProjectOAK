@@ -119,7 +119,12 @@ GER_wants_mils = {
 	ai_strategy = {
 		type = building_target
 		id = arms_factory
-		value = 25
+		value = 60
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = -50
 	}
 }
 GER_my_boy_speer = {

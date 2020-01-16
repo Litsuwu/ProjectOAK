@@ -5,6 +5,8 @@ ai_historical_focus_list_FIN = {
 		FIN_pander_italy
 		FIN_rifles_and_planes
 		FIN_defend_finland
+		FIN_scandinavian_volunteers
+		FIN_hungarian_volunteers
 		FIN_foreign_aid
 		FIN_abandoned
 		FIN_prepare_for_revenge

@@ -21,7 +21,12 @@ USA_wants_mils = {
 	ai_strategy = {
 		type = building_target
 		id = arms_factory
-		value = 50
+		value = 75
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = -100
 	}
 }
 USA_wants_docks = {
@@ -44,7 +49,7 @@ USA_wants_rubber = {
 	ai_strategy = {
 		type = building_target
 		id = synthetic_rubber_refinery
-		value = 10
+		value = 8
 	}
 }
 USA_save_the_aussies = {

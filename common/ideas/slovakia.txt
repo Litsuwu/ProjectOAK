@@ -1,5 +1,16 @@
 ideas = {
+	theorist_production = {
+		SLO_jaroslav_kratochvil = {
 
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = SLO
+			}
+			
+			traits = { war_industrialist }
+		}			
+	}
 	political_advisor = {
 
 		SLO_frano_kral = {
@@ -36,17 +47,6 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}
-
-		SLO_jaroslav_kratochvil = {
-
-			picture = generic_political_advisor_europe_2
-			
-			allowed = {
-				original_tag = SLO
-			}
-			
-			traits = { war_industrialist }
 		}
 
 		SLO_karol_sidor = {

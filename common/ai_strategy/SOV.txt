@@ -36,6 +36,11 @@ SOV_wants_mils = {
 		id = arms_factory
 		value = 100
 	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = -10
+	}
 }
 SOV_siberia = {
 	enable = {
