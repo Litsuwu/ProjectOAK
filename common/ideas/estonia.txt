@@ -1,6 +1,16 @@
 ideas = {
+	theorist_production = {
+		EST_juri_uluots = {
 
-
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}
 	political_advisor = {
 
 		EST_boris_kumm = {
@@ -27,18 +37,7 @@ ideas = {
 			}
 			
 			traits = { popular_figurehead }
-		}
-
-		EST_juri_uluots = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = EST
-			}
-			
-			traits = { captain_of_industry }
-		}
+		}		
 	}
 
 

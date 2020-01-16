@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-
+	
 		HOL_wilhelmina = {
 
 			picture = hol_wilhelmina
@@ -2017,18 +2017,7 @@ ideas = {
 
 			traits = { fascist_demagogue }
 		}
-
-		HOL_jan_goudriaan = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = HOL
-			}
-			
-			traits = { captain_of_industry }
-		}
-
+		
 		HOL_cornelis_van_geelkerken = {
 
 			picture = generic_political_advisor_europe_3
@@ -2076,26 +2065,7 @@ ideas = {
 			}
 			
 			traits = { council_communist }
-		}
-
-		HOL_adriaan_dijxhoorn = {
-
-			picture = generic_political_advisor_europe_2
-			
-			allowed = {
-				original_tag = HOL
-			}
-
-			available = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-
-			}
-			
-			traits = { war_industrialist }
-		}
+		}	
 
 		HOL_walraven_van_hall = {
 
@@ -2153,7 +2123,36 @@ ideas = {
 
 		}
 	}
+	theorist_production = {
+		HOL_adriaan_dijxhoorn = {
 
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = HOL
+			}
+
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+
+			}
+			
+			traits = { war_industrialist }
+		}
+		HOL_jan_goudriaan = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}
 	
 	# MILITARY
 	army_chief = {

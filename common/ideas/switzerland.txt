@@ -1,4 +1,16 @@
 ideas = {
+	theorist_production = {
+		SWI_roger_masson = {
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = SWI
+			}
+			
+			traits = { captain_of_industry }
+		}	
+	}
 	political_advisor = {
 
 		SWI_giuseppe_motta = {
@@ -22,18 +34,7 @@ ideas = {
 			
 			traits = { compassionate_gentleman }
 		}
-
-		SWI_roger_masson = {
-
-			picture = generic_army_europe_3
-			
-			allowed = {
-				original_tag = SWI
-			}
-			
-			traits = { war_industrialist }
-		}
-
+	
 		SWI_ernst_wetter = {
 
 			picture = generic_political_advisor_europe_3

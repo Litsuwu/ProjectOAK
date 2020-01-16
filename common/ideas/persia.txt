@@ -1,9 +1,5 @@
 ideas = {
-	# MILITARY
-
-
-	political_advisor = {
-
+	theorist_production = {
 		PER_ali_zohayli = {
 
 			picture = generic_political_advisor_arab_3
@@ -14,6 +10,9 @@ ideas = {
 			
 			traits = { captain_of_industry }
 		}
+	}
+
+	political_advisor = {		
 
 		PER_mahmud_jam = {
 

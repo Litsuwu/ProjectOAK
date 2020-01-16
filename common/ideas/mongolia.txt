@@ -1,5 +1,16 @@
 ideas = {
+	theorist_production = {
+		MON_pai_yun_ti = {
 
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = MON
+			}
+			
+			traits = { war_industrialist }
+		}
+	}
 	political_advisor = {
 
 		MON_dansrabilegyin_dogsam = {
@@ -22,17 +33,6 @@ ideas = {
 			}
 			
 			traits = { quartermaster_general }
-		}
-
-		MON_pai_yun_ti = {
-
-			picture = generic_political_advisor_asia_1
-			
-			allowed = {
-				original_tag = MON
-			}
-			
-			traits = { war_industrialist }
 		}
 	}	
 

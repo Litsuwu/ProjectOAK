@@ -1,5 +1,16 @@
 ideas = {
-	
+	theorist_production = {
+		BUL_dobri_bozhilov = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = BUL
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}
 	political_advisor = {
 
 		BUL_konstantin_muraviev = {
@@ -16,18 +27,7 @@ ideas = {
 			ai_will_do = {
 				factor = 100
 			}
-		}
-
-		BUL_dobri_bozhilov = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = BUL
-			}
-			
-			traits = { captain_of_industry }
-		}
+		}		
 
 		BUL_georgi_ivanov_kyoseivanov = {
 

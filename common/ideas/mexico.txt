@@ -845,7 +845,28 @@ ideas = {
 			}
 		}
 	}
+	theorist_production = {
+		MEX_1 = {
 
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = MEX
+			}
+			
+			traits = { war_industrialist }
+		}	
+		MEX_2 = {
+
+			picture = generic_political_advisor_south_america_2
+			
+			allowed = {
+				original_tag = MEX
+			}
+			
+			traits = { captain_of_industry }
+		}	
+	}
 	political_advisor = {
 
 		MEX_vicente_lombardo = {

@@ -1,4 +1,16 @@
 ideas = {
+	theorist_production = {
+		AFG_muhammed_nowroz = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = AFG
+			}
+			
+			traits = { armaments_organizer }
+		}
+	}
 	political_advisor = {
 
 		AFG_haji_faiz_muhammed_zikeria = {
@@ -21,18 +33,7 @@ ideas = {
 			}
 			
 			traits = { smooth_talking_charmer }
-		}
-
-		AFG_muhammed_nowroz = {
-
-			picture = generic_political_advisor_arab_3
-			
-			allowed = {
-				original_tag = AFG
-			}
-			
-			traits = { armaments_organizer }
-		}
+		}	
 
 		AFG_mahmud_khan = {
 

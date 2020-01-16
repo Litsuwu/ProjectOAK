@@ -1,7 +1,6 @@
 ideas = {
-	political_advisor = {
-
-	LIT_vladas_jurgutis = {
+	theorist_production = {
+		LIT_vladas_jurgutis = {
 
 		picture = generic_political_advisor_europe_1
 		
@@ -10,7 +9,9 @@ ideas = {
 		}
 		
 		traits = { captain_of_industry }
+		}
 	}
+	political_advisor = {	
 
 	LIT_leonas_bistras = {
 

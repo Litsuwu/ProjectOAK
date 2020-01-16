@@ -14,7 +14,19 @@ ideas = {
 			}
 		}
 	}
+	theorist_production = {
+		GRE_evripidis_bakirtris = {
 
+		picture = generic_political_advisor_europe_3
+		
+		allowed = {
+			original_tag = GRE
+		}
+		
+		traits = { war_industrialist }
+		}
+
+	}
 	political_advisor = {
 
 	GRE_damaskinos = {
@@ -38,17 +50,7 @@ ideas = {
 		
 		traits = { silent_workhorse }
 	}
-
-	GRE_evripidis_bakirtris = {
-
-		picture = generic_political_advisor_europe_3
-		
-		allowed = {
-			original_tag = GRE
-		}
-		
-		traits = { war_industrialist }
-	}
+	
 }
 
 theorist = {

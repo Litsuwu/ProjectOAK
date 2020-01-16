@@ -1,5 +1,16 @@
 ideas = {
+	theorist_production = {
+		LAT_janis_kaminskis = {
 
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = LAT
+			}
+			
+			traits = { captain_of_industry }
+		}	
+	}
 	political_advisor = {
 
 		LAT_vilis_lacis = {
@@ -11,17 +22,6 @@ ideas = {
 			}
 			
 			traits = { backroom_backstabber }
-		}
-
-		LAT_janis_kaminskis = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = LAT
-			}
-			
-			traits = { war_industrialist }
 		}
 
 		LAT_vilhelms_munters = {
