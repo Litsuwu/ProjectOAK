@@ -1,6 +1,12 @@
 spriteTypes = {	
-
-	
+	spriteType = {
+		name = "GFX_idea_springfield_armory"
+		texturefile = "gfx/interface/ideas/idea_springfield_armory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_usa_general_motors"
+		texturefile = "gfx/interface/ideas/idea_USA_general_motors.dds"
+	}
 	spriteType = {
 		name = "GFX_GER_paratroopers"
 		texturefile = "gfx/interface/goals/ger/GER_fallschirmjaeger.dds"

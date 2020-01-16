@@ -1274,18 +1274,6 @@ ideas = {
         		
 	}
 	industrial_research = {
-
-		the_radio_patent = {
-
-			allowed = {
-				original_tag = USA
-			}
-			
-			research_bonus = {
-				industry = -0.05
-				
-			}
-		}	
 	
 		danieli_research = {
 			
