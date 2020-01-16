@@ -9,7 +9,55 @@
 # garrison
 # protect
 # influence
-
+ENG_wants_civ = {
+	enable = {
+		tag = ENG
+		has_war = no
+	}
+	abort = {
+		date > 1937.9.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+ENG_wants_mils = {
+	enable = {
+		tag = ENG
+		date > 1938.1.1
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 40
+	}
+}
+ENG_wants_docks = {
+	enable = {
+		tag = ENG
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 14
+	}
+}
+ENG_wants_rubber = {
+	enable = {
+		tag = ENG
+		date > 1939.9.1
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = synthetic_rubber_refinery
+		value = 4
+	}
+}
 ENG_unit_production = {
 	enable = {
 		original_tag = ENG

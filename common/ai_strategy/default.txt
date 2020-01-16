@@ -18,6 +18,15 @@
 default_wants_civ = {
 	enable = {
 		date > 1936.1.1
+		NOT = {
+			tag = ENG
+			tag = USA
+			tag = FRA
+			tag = ITA
+			tag = GER
+			tag = JAP
+			tag = SOV
+		}
 	}
 	abort = {
 		date > 1938.2.1
@@ -30,6 +39,15 @@ default_wants_civ = {
 }
 default_wants_mils = {
 	enable = {
+		NOT = {
+			tag = ENG
+			tag = USA
+			tag = FRA
+			tag = ITA
+			tag = GER
+			tag = JAP
+			tag = SOV
+		}
 		date > 1938.2.2
 	}
 	abort_when_not_enabled = yes

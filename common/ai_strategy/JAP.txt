@@ -9,7 +9,43 @@
 # garrison
 # protect
 # influence
-
+JAP_wants_civ = {
+	enable = {
+		tag = JAP
+		has_war = no
+	}
+	abort = {
+		date > 1938.1.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+JAP_wants_mils = {
+	enable = {
+		tag = JAP
+		date > 1938.1.2
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 40
+	}
+}
+JAP_wants_docks = {
+	enable = {
+		tag = JAP
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 10
+	}
+}
 less_trucks_4_u_JAP = {
 	enable = {
 		tag = JAP

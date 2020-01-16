@@ -9,7 +9,32 @@
 # garrison
 # protect
 # influence
-
+CHI_wants_civ = {
+	enable = {
+		tag = CHI
+		has_war = no
+	}
+	abort = {
+		date > 1937.1.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+CHI_wants_mils = {
+	enable = {
+		tag = CHI
+		date > 1937.1.2
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 40
+	}
+}
 CHI_unit_production = {
 	enable = {
 		original_tag = CHI 

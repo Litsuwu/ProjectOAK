@@ -9,7 +9,60 @@
 # garrison
 # protect
 # influence
-
+ITA_wants_civ = {
+	enable = {
+		tag = ITA
+		has_war = no
+	}
+	abort = {
+		date > 1938.3.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 80
+	}
+}
+ITA_wants_mils = {
+	enable = {
+		tag = ITA
+		date > 1938.3.2
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 40
+	}
+}
+ITA_wants_docks = {
+	enable = {
+		tag = ITA
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 10
+	}
+}
+ITA_wants_synths = {
+	enable = {
+		tag = ITA
+		date > 1937.6.1
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = synthetic_rubber_refinery
+		value = 8
+	}
+	ai_strategy = {
+		type = building_target
+		id = synthetic_refinery
+		value = 8
+	}
+}
 no_turkey = {
 	enable = {
 		tag = ITA

@@ -9,7 +9,32 @@
 # garrison
 # protect
 # influence
-
+FRA_wants_civ = {
+	enable = {
+		tag = FRA
+		has_war = no
+	}
+	abort = {
+		date > 1937.1.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 80
+	}
+}
+FRA_wants_mils = {
+	enable = {
+		tag = FRA
+		date > 1937.1.2
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 80
+	}
+}
 FRA_unit_production = {
 	enable = {
 		original_tag = FRA

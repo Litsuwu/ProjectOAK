@@ -10,6 +10,110 @@
 # protect
 # influence
 
+
+SOV_wants_civ = {
+	enable = {
+		tag = SOV
+		has_war = no
+	}
+	abort = {
+		has_completed_focus = SOV_begin_the_3_5_year_plan
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+SOV_wants_mils = {
+	enable = {
+		tag = SOV
+		has_completed_focus = SOV_begin_the_3_5_year_plan
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 100
+	}
+}
+SOV_siberia = {
+	enable = {
+		original_tag = SOV
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  653
+        value = 300
+    }
+
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  572
+        value = 300
+    }
+    ai_strategy = {
+        type = factory_build_score_factor
+        target =  582
+        value = 300
+    }
+
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  253
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  219
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  398
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  195
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  217
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  651
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  252
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  249
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  256
+        value = 300
+    }
+	ai_strategy = {
+        type = factory_build_score_factor
+        target =  405
+        value = 300
+    }
+}
+
+
 SOV_unit_production = {
 	enable = {
 		original_tag = SOV

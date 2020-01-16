@@ -1,4 +1,52 @@
-
+USA_wants_civ = {
+	enable = {
+		tag = USA
+		has_war = no
+	}
+	abort = {
+		has_completed_focus = USA_the_giant_wakes
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 100
+	}
+}
+USA_wants_mils = {
+	enable = {
+		tag = USA
+		has_completed_focus = USA_the_giant_wakes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 50
+	}
+}
+USA_wants_docks = {
+	enable = {
+		tag = USA
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 10
+	}
+}
+USA_wants_rubber = {
+	enable = {
+		tag = USA
+		date > 1939.9.1
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = synthetic_rubber_refinery
+		value = 10
+	}
+}
 USA_save_the_aussies = {
 	enable = {
 		tag = USA
