@@ -366,12 +366,12 @@ on_actions = {
 					delete_unit_template_and_units = {
 						division_template = "Vozdushno-Desantnaya Brigada"
 					}
-					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = SOV }
+					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 15000 producer = SOV }
 					add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SOV }
 					add_equipment_to_stockpile = { type = pack_artillery_equipment_1 amount = 1500 producer = SOV }
-					add_equipment_to_stockpile = { type = horse_equipment_0 amount = 10000 producer = SOV } 
+					add_equipment_to_stockpile = { type = horse_equipment_0 amount = 8000 producer = SOV } 
 					add_equipment_to_stockpile = { type = armored_cars_equipment_1 amount = 1500 producer = SOV } 
-					add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 3500 producer = SOV } 
+					add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 3000 producer = SOV } 
 					add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = SOV } 
 					load_oob = SOV_tanks_ai
 				}

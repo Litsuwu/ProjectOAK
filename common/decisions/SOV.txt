@@ -4423,7 +4423,7 @@ SOV_5_year_plan_decisions = {
 			check_variable = { var = 5_year_plan_progress value = 100 compare = greater_than_or_equals }						
 		}
 
-		days_mission_timeout = 730
+		days_mission_timeout = 770
 
 		is_good = no
 
