@@ -38,6 +38,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -84,6 +85,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -131,6 +133,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -180,6 +183,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -222,6 +226,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -263,6 +268,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -306,6 +312,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -347,6 +354,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler
@@ -388,6 +396,7 @@ SS_recruitment = {
 		icon = generic_army_support
 
 		available = {
+			has_tech = ger_heavy_tank_1942
 			AND = {
 				OR = {
 					has_idea = heinrich_himmler

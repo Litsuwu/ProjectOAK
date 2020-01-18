@@ -1400,8 +1400,6 @@ technologies = {
 		}
 	}
 	
-	
-	
 	ger_heavy_tank_1942 = { 
 
 		enable_equipments = {
