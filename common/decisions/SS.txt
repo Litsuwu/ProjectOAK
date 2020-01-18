@@ -72,7 +72,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 10
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.0
 		}
 	}
@@ -119,7 +120,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.1
 		}
 	}
@@ -168,7 +170,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.2
 		}
 	}
@@ -208,7 +211,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.3
 		}
 	}
@@ -249,7 +253,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.4
 		}
 	}
@@ -291,7 +296,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.5
 		}
 	}
@@ -331,7 +337,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.6
 		}
 	}
@@ -371,7 +378,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.7
 		}
 	}
@@ -411,7 +419,8 @@ SS_recruitment = {
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			country_event = ss_recruitment_event.8
 		}
 	}
