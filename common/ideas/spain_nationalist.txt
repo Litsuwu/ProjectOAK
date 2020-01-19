@@ -45,7 +45,6 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				has_government = fascism
 			}
 
 			allowed_civil_war = {
@@ -61,9 +60,37 @@ ideas = {
 			}
 			modifier = {
 				consumer_goods_factor = 0.10
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
 			}
 		}
-		
+		SPA_recovering_from_civil_war_ai = {
+
+			picture = ROM_king_carol_emptied_accounts
+			
+			name = SPA_recovering_from_civil_war
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			cancel = {
+				has_war = yes
+			}
+            rule = {
+				can_create_factions = no
+				can_join_factions = no 
+				can_send_volunteers = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_factory_max_efficiency_factor = -0.25
+				industrial_capacity_factory = -0.5
+			}
+		}
 		SPA_Conv = {
 		
 			picture = FRA_factory_strikes
