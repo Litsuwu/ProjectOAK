@@ -53,9 +53,16 @@ infantry_CHI = {
 		allowed_types = {
 			light_infantry		
 		}
+		replace_at_match = 0.4
+		replace_with = infantry_2_CHI
+		target_min_match = 0.5
 	}
 
 	infantry_2_CHI = {
+		available_for = {
+			CHI
+			PRC 
+		}
 	
 		upgrade_prio = {
 			factor = 2
