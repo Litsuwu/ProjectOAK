@@ -1770,10 +1770,10 @@ ideas = {
 
 			equipment_bonus = {
 				mechanized_equipment = {
-					build_cost_ic = -0.05 reliability = -0.1
+					build_cost_ic = -0.05 reliability = -0.1 instant = yes
 				}
 				motorized_equipment = {
-					build_cost_ic = -0.05 reliability = -0.1
+					build_cost_ic = -0.05 reliability = -0.1 instant = yes
 				}
 			}
 		}	
