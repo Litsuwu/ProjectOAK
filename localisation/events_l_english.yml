@@ -1,10 +1,10 @@
 ﻿l_english:
  if_they_accept:0 "If they accept:\n"
+ lend_lease_tt:0 "§G Gain a big amount of American equipment."
  
  multiplayer.1.t:0 "You are a massive cunt"
  multiplayer.1.d:0 "It seems you have used the tech research exploit, get fucked"
  multiplayer.1.a:0 "I'm a cunt"
- 
  multiplayer.2.t:0 "[From.GetName] is a cheater!"
  multiplayer.2.d:0 "[From.GetName] has used the tech research exploit..."
  multiplayer.2.a:0 "Rehost time"
@@ -2139,7 +2139,7 @@
  news.457.b:0 "The Americans show their true face..."
  news.457.c:0 "Finally they are doing something!"
  news.445.t:0 "New NKVD divisions Formed."
- news.445.d:0 "Russian teenagers have been assambled in Moscow under the wise command of the NKVD."
+ news.445.d:0 "Russian teenagers with obsolete equipment have been assembled in Moscow under the wise command of the NKVD."
  news.445.a:0 "Plug the gaps, comrades!"
  news.446.t:0 "Sea Lion Allowed."
  news.446.d:0 "Axis may invade the UK."

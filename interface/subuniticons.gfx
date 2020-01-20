@@ -7,6 +7,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_group_mobile_icon"								textureFile = "gfx/interface/counters/divisions_large/unit_motorized_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_group_armor_icon"								textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_group_special_infantry_icon"                     textureFile = "gfx/interface/counters/divisions_large/unit_special_forces_icon.dds" noOfFrames = 2 }
+    spriteType = { name = "GFX_group_semi_mobile_icon"                    		textureFile = "gfx/interface/counters/divisions_large/unit_truck_infantry_icon.dds" noOfFrames = 2 }	
 	#SS
 	spriteType = { name = "GFX_group_schutzstaffel_icon"                            textureFile = "gfx/interface/counters/divisions_large/MPU.150.large.InfantryBlack.NoEchelon.dds" noOfFrames = 2 }
     spriteType = { name = "GFX_group_schutzstaffel_mobile_icon"                     textureFile = "gfx/interface/counters/divisions_large/MPU.215.large.MotorisedInfantryBlack.NoEchelon.dds" noOfFrames = 2 }

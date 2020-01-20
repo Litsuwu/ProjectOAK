@@ -77,10 +77,6 @@ technologies = {
 		enable_subunits = {
 			ss_motorized_rocket_brigade
 		}
-	}
-
-	ss_unlock_early_panzers = {
-
 		enable_subunits = {
 			ss_light_panzer
 		}
@@ -105,10 +101,6 @@ technologies = {
 		enable_subunits = {
 			ss_armored_cars_battalion
 		}
-	}
-
-	ss_unlock_heavy_tanks = {
-
 		enable_subunits = {
 			ss_heavy_panzer
 		}

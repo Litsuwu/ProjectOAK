@@ -3862,9 +3862,7 @@ focus_tree = {
 			SS_set_templates = yes
 			SS_resolve_effects_wehrmacht = yes
 			set_technology = {
-				ss_unlock_early_panzers = 1 
 				ss_unlock = 1 
-				ss_unlock_heavy_tanks = 1
 			}
 			create_corps_commander = {
 				name = "Walter Krüger"

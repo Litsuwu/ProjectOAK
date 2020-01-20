@@ -758,7 +758,7 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.99
+			communism > 0.89
 			has_stability > 0.6			
 		}
 
@@ -1330,7 +1330,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_operation_zet
-		icon = GFX_america_goal_american_industry
+		icon = GFX_SOV_operation_zet
 		prerequisite = { focus = SOV_SPR_military_advisors focus = SOV_full_fledged_proxy_war }
 		relative_position_id = SOV_intervene_in_the_spanish_civil_war 
 		available = {
@@ -1540,7 +1540,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_lessons_of_the_winter_war
-		icon = GFX_america_goal_american_industry
+		icon = GFX_SOV_lessons_of_the_winter_war
 		prerequisite = { focus = SOV_execute_zhukov_and_annex_mongolia focus = SOV_hero_of_the_union }
 		relative_position_id = SOV_intervene_in_the_spanish_civil_war 
 
@@ -2422,7 +2422,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_army_experience > 50
+			has_army_experience > 49
 			has_tech = sov_mechanised_infantry
 		}
 
@@ -2816,7 +2816,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_infantry_development
-		icon = GFX_goal_SOV_police_state
+		icon = GFX_SOV_infantry_development
 		cost = 7.16	
 		prerequisite = {
 			focus = SOV_peoples_commissariat
@@ -4143,7 +4143,7 @@ focus_tree = {
 	focus = {
 		id = SOV_american_lend_lease
 		icon = GFX_SOV_usa_sov_agreement
-		cost = 0.00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_great_patriotic_war
 		}
@@ -4264,7 +4264,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_drive_out_the_fascists
-		icon = GFX_SOV_lend_lease
+		icon = GFX_SOV_drive_out_the_fascists
 		cost = 7.16	
 		prerequisite = {
 			focus = SOV_persian_lend_lease

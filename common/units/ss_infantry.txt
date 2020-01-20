@@ -169,7 +169,7 @@ sub_units = {
 			infantry
 		}
 		
-		group = schutzstaffel_mobile
+		group = semi_mobile
 		
 		categories = {
 			category_front_line
@@ -236,7 +236,7 @@ sub_units = {
 			infantry
 		}
 		
-		group = schutzstaffel_mobile
+		group = semi_mobile
 		
 		categories = {
 			category_front_line

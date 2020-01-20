@@ -2874,7 +2874,7 @@ foreign_politics = {
 		}
 	}
 
-	GER_ussr_war_goal = {
+	GER_ussr_war_goal = { #barba
 
 		icon = ger_reichskommissariats
 	

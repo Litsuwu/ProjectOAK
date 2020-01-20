@@ -1145,12 +1145,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SOV_soviet_women"
 		texturefile = "gfx/interface/goals/soviet/SOV_women.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_SOV_red_army"
-		texturefile = "gfx/interface/goals/soviet/SOV_red_army.dds"
-	}	
+	}		
 
 	spriteType = {
 		name = "GFX_SOV_tankograd"

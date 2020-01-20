@@ -775,6 +775,7 @@ country_event = {
 	
 	option = {   
 		name = usa.53.a
+		custom_effect_tooltip = lend_lease_tt
 		hidden_effect = {
 	        load_oob = SOV_land_lease1
 	    }		
@@ -790,7 +791,10 @@ country_event = {
 
 	option = {   ## Accept lend lease from the imperialists
 		name = usa.55.a
-          load_oob = SOV_land_lease2	
+		custom_effect_tooltip = lend_lease_tt
+		hidden_effect = {
+	        load_oob = SOV_land_lease2	
+	    }       
 	}	
 }
 country_event = {

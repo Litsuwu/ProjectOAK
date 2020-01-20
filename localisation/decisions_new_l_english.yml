@@ -18,7 +18,7 @@
  SOV_CHI_help:0 "Soviet help with Weapons"
  SOV_SPR_help:0 "Soviet help with Weapons"
  remove_mod_decision:0 "Hide Mod Decisions"
- remove_mod_decision_desc:0 "§RWARNING: THIS CAN'T BE UNDONE"
+ remove_mod_decision_desc:0 "§RWARNING: THIS CAN'T BE UNDONE"			
 
  ###Xenbang stuff### 
 
@@ -111,7 +111,7 @@
  SOV_army_recovery:0 "Army Recovery"
  SOV_army_recovery_desc:0 "The Red Army has survived the initial fascist onslaught and is now fully operational and ready to drive out the fascist invaders, OOORAH!"
  Guard_unlock:0 "Guards Units"
- SOV_proletariat:0 "12 poorly trained and equipped NKVD divisions will be deployed in Moskow. Use them to plug the gaps."
+ SOV_proletariat_divs_tt:0 "12 poorly trained and equipped NKVD divisions will be deployed in Moskow. Use them to plug the gaps."
 
  ###USA###
  USA_torch:0 "Operation Torch"

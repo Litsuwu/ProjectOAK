@@ -286,6 +286,7 @@ country_event = {
 		name = soviet.12.a
 		SOV = { 
 			transfer_state = 146
+			diplomatic_relation = { country = FIN relation = non_aggression_pact }
 		}
 		hidden_effect = {
 			SOV = {
@@ -311,10 +312,20 @@ country_event = {
             type = take_state
 		    generator = { 146 }
         }
-        add_timed_idea = {
-			idea = SOV_winter_war
-			days = 180
-		}			
+		if = {
+			limit = {
+				NOT = {
+					AND = {
+						FIN = { is_ai = no }
+						SOV = { is_ai = no }
+					}
+				}
+			}
+			add_timed_idea = {
+				idea = SOV_winter_war
+				days = 180
+			}	
+		}      			
 		hidden_effect = {
 			SOV = {
 				country_event = { days = 1 id = news.12 }	
@@ -3181,16 +3192,15 @@ country_event = {
 		OR  = {
 			surrender_progress > 0.225
             casualties > 500000
-			}
+		}
 	}
     immediate = {
-	load_oob = "SOV_proletariat"
-	army_experience = -50
-			swap_ideas = {
-				remove_idea = Disorganized_Red_Army_1
-				add_idea = Disorganized_Red_Army_2
-			}
-	
+		load_oob = "SOV_proletariat"
+		army_experience = -50
+		swap_ideas = {
+			remove_idea = Disorganized_Red_Army_1
+			add_idea = Disorganized_Red_Army_2
+		}	
 	}
 	option = {
 	    country_event = { hours = 3 id = news.445 }
